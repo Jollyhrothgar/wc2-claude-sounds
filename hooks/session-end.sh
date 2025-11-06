@@ -13,7 +13,8 @@ REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 CONFIG_FILE="$REPO_ROOT/config.yaml"
 
 # Get character from session file if not in env
-SESSION_FILE="/tmp/wc2-character-$$"
+# Use PPID (parent process, Claude Code) for session consistency
+SESSION_FILE="/tmp/wc2-character-$PPID"
 if [[ -z "${WC2_CHARACTER:-}" ]]; then
     if [[ -f "$SESSION_FILE" ]]; then
         WC2_CHARACTER=$(cat "$SESSION_FILE")

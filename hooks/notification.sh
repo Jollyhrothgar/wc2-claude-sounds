@@ -12,7 +12,8 @@ SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 
 # Get or create character for this session
-SESSION_FILE="/tmp/wc2-character-$$"
+# Use PPID (parent process, Claude Code) for session consistency
+SESSION_FILE="/tmp/wc2-character-$PPID"
 if [[ -z "${WC2_CHARACTER:-}" ]]; then
     # Check if we have a session file
     if [[ -f "$SESSION_FILE" ]]; then
