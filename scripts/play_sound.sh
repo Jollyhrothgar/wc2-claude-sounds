@@ -4,6 +4,44 @@
 
 set -euo pipefail
 
+# Check if this terminal window has focus - only play if unfocused
+FRONTMOST=$(osascript -e 'tell application "System Events" to get name of first application process whose frontmost is true' 2>/dev/null || echo "")
+
+# If iTerm2 or Terminal isn't the frontmost app, we can play sound
+SHOULD_PLAY=false
+if [[ "$FRONTMOST" != "iTerm2" && "$FRONTMOST" != "Terminal" ]]; then
+    SHOULD_PLAY=true
+elif [[ "$FRONTMOST" == "iTerm2" ]]; then
+    # iTerm2 is frontmost, check if THIS window is active
+    CURRENT_WINDOW="$ITERM_SESSION_ID"
+    ACTIVE_WINDOW=$(osascript -e 'tell application "iTerm2"
+        try
+            return id of current session of current window
+        end try
+    end tell' 2>/dev/null || echo "")
+
+    if [[ -n "$CURRENT_WINDOW" && "$CURRENT_WINDOW" != "$ACTIVE_WINDOW" ]]; then
+        SHOULD_PLAY=true
+    fi
+elif [[ "$FRONTMOST" == "Terminal" ]]; then
+    # Terminal is frontmost, check if THIS window is active
+    CURRENT_TTY=$(tty 2>/dev/null || echo "")
+    ACTIVE_TTY=$(osascript -e 'tell application "Terminal"
+        try
+            return tty of front window
+        end try
+    end tell' 2>/dev/null || echo "")
+
+    if [[ -n "$CURRENT_TTY" && "$CURRENT_TTY" != "$ACTIVE_TTY" ]]; then
+        SHOULD_PLAY=true
+    fi
+fi
+
+# Exit early if window is focused
+if [[ "$SHOULD_PLAY" != "true" ]]; then
+    exit 0
+fi
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 CONFIG_FILE="$REPO_ROOT/config.yaml"
