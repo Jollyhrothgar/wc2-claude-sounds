@@ -40,17 +40,17 @@ find_sound() {
     local character="$1"
     local speech_type="$2"
 
-    # Query labels.json for matching sound
-    local sound_file=$(jq -r --arg char "$character" --arg speech "$speech_type" '
-        .sounds[]
+    # Query labels.json for matching sound and randomly pick one
+    local sound_file=$(jq -r --arg char "$character" --arg speech "$speech_type" --argjson seed "$RANDOM" '
+        [.sounds[]
         | select(
             .category == "unit"
             and .["Unit Type"] != null
             and (.["Unit Type"] | tostring | split(",") | map(gsub("^[[:space:]]+|[[:space:]]+$"; "")) | index($char))
             and (.["Speech Type"] == $speech)
         )
-        | .file
-    ' "$LABELS_FILE" | shuf -n 1)
+        | .file] | if length > 0 then (. | to_entries | map(.value) | .[($seed % length)]) else empty end
+    ' "$LABELS_FILE")
 
     if [[ -n "$sound_file" ]]; then
         echo "$sound_file"
