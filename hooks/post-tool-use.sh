@@ -47,9 +47,12 @@ fi
 
 # Play complete sound with fallbacks (not all characters have "Complete")
 # Try: Complete -> Ready -> Acknowledge -> Greeting
-"$REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" "Acknowledge" "Greeting"
+# Play in background to avoid blocking hook (Claude Code considers slow hooks as errors)
+echo "About to play sound for character: $WC2_CHARACTER" >> /tmp/wc2-hook-calls.log
+"$REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" "Acknowledge" "Greeting" >> /tmp/wc2-hook-calls.log 2>&1 &
+echo "Sound script started in background (PID $!)" >> /tmp/wc2-hook-calls.log
 
-# Update timestamp AFTER sound finishes playing
+# Update timestamp immediately (debouncing happens at hook start, not sound end)
 date +%s > "$LAST_PLAY_FILE"
 
 exit 0

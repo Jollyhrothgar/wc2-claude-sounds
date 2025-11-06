@@ -55,8 +55,8 @@ if [[ "$PLAYBACK_ENABLED" != "true" ]]; then
     exit 0
 fi
 
-# Get volume setting
-VOLUME=$(grep -A3 "^playback:" "$CONFIG_FILE" | grep "volume:" | sed 's/.*: //' | xargs)
+# Get volume setting (strip inline comments)
+VOLUME=$(grep -A3 "^playback:" "$CONFIG_FILE" | grep "volume:" | sed 's/.*: //' | sed 's/#.*//' | xargs)
 
 # Get current character from environment variable
 if [[ -z "${WC2_CHARACTER:-}" ]]; then
@@ -119,6 +119,9 @@ if [[ ! -f "$SOUND_PATH" ]]; then
     echo "ERROR: Sound file not found: $SOUND_PATH" >&2
     exit 1
 fi
+
+# DEBUG: Log what we're about to play
+echo "Playing: $SOUND_PATH for character $WC2_CHARACTER" >> /tmp/wc2-sound-plays.log
 
 # Play the sound (macOS uses afplay)
 if command -v afplay &> /dev/null; then

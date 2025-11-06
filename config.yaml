@@ -46,7 +46,7 @@ events:
 
 # Playback settings
 playback:
-  volume: 7.0  # 0.0 to 1.0
+  volume: 0.7  # 0.0 to 1.0
   enabled: true
   # Only play sounds for long-running tasks (in seconds)
   min_duration_for_complete: 5.0
