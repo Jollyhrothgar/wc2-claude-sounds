@@ -13,7 +13,7 @@ disabled_characters:
   # - Troll Axe Thrower  # Uncomment to disable Troll Axe Thrower
   # - Mage  # Uncomment to disable Mage
   # - Death Knight  # Uncomment to disable Death Knight
-  # - Palidin  # Uncomment to disable Paladin
+  # - Paladin  # Uncomment to disable Paladin
   # - Orgre  # Uncomment to disable Ogre
   # - Dwarvish Demo Squad  # Uncomment to disable Dwarven Demo Squad
   # - Goblin Demolition Crew  # Uncomment to disable Goblin Demo Crew
@@ -46,7 +46,7 @@ events:
 
 # Playback settings
 playback:
-  volume: 1.0  # 0.0 to 1.0
+  volume: 7.0  # 0.0 to 1.0
   enabled: true
   # Only play sounds for long-running tasks (in seconds)
   min_duration_for_complete: 5.0

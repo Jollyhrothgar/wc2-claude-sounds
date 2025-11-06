@@ -1742,7 +1742,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "I need orders",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Annoyed",
       "labeled_at": "2025-11-05T00:41:59.750Z"
     },
@@ -1751,7 +1751,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "Give me a quest",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Annoyed",
       "labeled_at": "2025-11-05T00:42:13.266Z"
     },
@@ -1760,7 +1760,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "Don't force me to run you through",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Annoyed",
       "labeled_at": "2025-11-05T00:42:26.374Z"
     },
@@ -1769,7 +1769,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "Ready to serve my lord",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Ready",
       "labeled_at": "2025-11-05T00:42:42.497Z"
     },
@@ -1778,7 +1778,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "Your majesty?",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:44:36.922Z"
     },
@@ -1787,7 +1787,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "At your service",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:44:45.961Z"
     },
@@ -1796,7 +1796,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "Sire",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:44:54.055Z"
     },
@@ -1805,7 +1805,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "What ho",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:45:05.091Z"
     },
@@ -1814,7 +1814,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "We move",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:45:15.284Z"
     },
@@ -1823,7 +1823,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "in your name",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:45:23.548Z"
     },
@@ -1832,7 +1832,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "for the king",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:45:36.141Z"
     },
@@ -1841,7 +1841,7 @@
       "category": "unit",
       "faction": "alliance",
       "Name": "defending your honor",
-      "Unit Type": "Palidin",
+      "Unit Type": "Paladin",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:45:49.288Z"
     },
@@ -4142,7 +4142,7 @@
         "faction": null
       },
       {
-        "value": "Palidin",
+        "value": "Paladin",
         "faction": "alliance"
       },
       {

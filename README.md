@@ -72,7 +72,7 @@ locking:
 - Knight
 - Elven Archer
 - Mage
-- Paladin (note: misspelled as "Palidin" in original game)
+- Paladin
 - Dwarven Demolition Squad
 - Gryphon Rider
 - Gnomish Flying Machine
