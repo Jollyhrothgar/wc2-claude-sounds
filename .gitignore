@@ -25,8 +25,10 @@ Temporary Items
 # Local config overrides
 config.local.yaml
 
-# Lock directory (external to repo)
+# Lock files and directories (external to repo)
 locks/
+*.lock
+**/locks/
 
 # Editor artifacts
 *.swp
