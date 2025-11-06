@@ -131,7 +131,7 @@ if command -v afplay &> /dev/null; then
         afplay "$SOUND_PATH"
         osascript -e "set volume output volume $current_volume" 2>/dev/null
     else
-        afplay "$SOUND_PATH" &
+        afplay "$SOUND_PATH"
     fi
 elif command -v aplay &> /dev/null; then
     # Linux ALSA

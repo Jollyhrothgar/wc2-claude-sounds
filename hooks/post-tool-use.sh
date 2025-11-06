@@ -18,7 +18,6 @@ if [[ -f "$LAST_PLAY_FILE" ]]; then
         exit 0
     fi
 fi
-echo "$CURRENT_TIME" > "$LAST_PLAY_FILE"
 
 # Resolve symlink to get real script location
 SCRIPT_PATH="${BASH_SOURCE[0]}"
@@ -48,6 +47,9 @@ fi
 
 # Play complete sound with fallbacks (not all characters have "Complete")
 # Try: Complete -> Ready -> Acknowledge -> Greeting
-"$REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" "Acknowledge" "Greeting" &
+"$REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" "Acknowledge" "Greeting"
+
+# Update timestamp AFTER sound finishes playing
+date +%s > "$LAST_PLAY_FILE"
 
 exit 0
