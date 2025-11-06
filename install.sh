@@ -36,6 +36,7 @@ NEW_SETTINGS=$(echo "$CURRENT_SETTINGS" | jq --arg script_dir "$SCRIPT_DIR" '
 
   # SessionStart
   .hooks.SessionStart = [{
+    "matcher": "*",
     "hooks": [{
       "type": "command",
       "command": ($script_dir + "/hooks/session-start.sh")
@@ -44,6 +45,7 @@ NEW_SETTINGS=$(echo "$CURRENT_SETTINGS" | jq --arg script_dir "$SCRIPT_DIR" '
 
   # PreToolUse
   .hooks.PreToolUse = [{
+    "matcher": "*",
     "hooks": [{
       "type": "command",
       "command": ($script_dir + "/hooks/pre-tool-use.sh")
@@ -52,6 +54,7 @@ NEW_SETTINGS=$(echo "$CURRENT_SETTINGS" | jq --arg script_dir "$SCRIPT_DIR" '
 
   # PostToolUse
   .hooks.PostToolUse = [{
+    "matcher": "*",
     "hooks": [{
       "type": "command",
       "command": ($script_dir + "/hooks/post-tool-use.sh")
@@ -66,6 +69,7 @@ NEW_SETTINGS=$(echo "$CURRENT_SETTINGS" | jq --arg script_dir "$SCRIPT_DIR" '
     }]
   else
     .hooks.Notification = [{
+      "matcher": "*",
       "hooks": [{
         "type": "command",
         "command": ($script_dir + "/hooks/notification.sh")
@@ -75,6 +79,7 @@ NEW_SETTINGS=$(echo "$CURRENT_SETTINGS" | jq --arg script_dir "$SCRIPT_DIR" '
 
   # SessionEnd
   .hooks.SessionEnd = [{
+    "matcher": "*",
     "hooks": [{
       "type": "command",
       "command": ($script_dir + "/hooks/session-end.sh")
