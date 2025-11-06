@@ -11,9 +11,9 @@ fi
 SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 
-# Check if character is set
+# Check if character is set, if not select one
 if [[ -z "${WC2_CHARACTER:-}" ]]; then
-    exit 0
+    export WC2_CHARACTER=$("$REPO_ROOT/scripts/select_character.sh" 2>/dev/null || echo "Peasant")
 fi
 
 # Play alert sound (with Annoyed as fallback)

@@ -12,7 +12,8 @@ SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 CONFIG_FILE="$REPO_ROOT/config.yaml"
 
-# Check if character is set
+# Check if character is set, if not don't clean up
+# (SessionEnd only cleans up locks, so we need a character to have been selected)
 if [[ -z "${WC2_CHARACTER:-}" ]]; then
     exit 0
 fi
