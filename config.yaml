@@ -1,0 +1,60 @@
+# Warcraft II Claude Sounds Configuration
+
+# Characters to exclude from random selection
+# Remove from this list to enable a character
+disabled_characters:
+  - Ship  # Generic ship sounds
+  # - Peasant  # Uncomment to disable Peasant
+  # - Peon  # Uncomment to disable Peon
+  # - Knight  # Uncomment to disable Knight
+  # - Footman  # Uncomment to disable Footman
+  # - Grunt  # Uncomment to disable Grunt
+  # - Elven Archer  # Uncomment to disable Elven Archer
+  # - Troll Axe Thrower  # Uncomment to disable Troll Axe Thrower
+  # - Mage  # Uncomment to disable Mage
+  # - Death Knight  # Uncomment to disable Death Knight
+  # - Palidin  # Uncomment to disable Paladin
+  # - Orgre  # Uncomment to disable Ogre
+  # - Dwarvish Demo Squad  # Uncomment to disable Dwarven Demo Squad
+  # - Goblin Demolition Crew  # Uncomment to disable Goblin Demo Crew
+  # - Gryphon Rider  # Uncomment to disable Gryphon Rider
+  # - Dragon  # Uncomment to disable Dragon
+  # - Gnomish Flying Machine  # Uncomment to disable Flying Machine
+  # - Goblin Zeppelin  # Uncomment to disable Zeppelin
+  # - Gnomish Submarine  # Uncomment to disable Submarine
+
+# Sound event mappings
+# Maps Claude Code hook events to Warcraft II speech types
+events:
+  session_start:
+    speech_type: Greeting
+    description: "Plays when a new Claude Code session starts"
+
+  pre_tool_use:
+    speech_type: Acknowledge
+    fallback: Ready
+    description: "Plays when Claude starts working on a task"
+
+  notification:
+    speech_type: Alert
+    fallback: Annoyed
+    description: "Plays when Claude needs user attention"
+
+  post_tool_use:
+    speech_type: Complete
+    description: "Plays when a long-running task completes"
+
+# Playback settings
+playback:
+  volume: 1.0  # 0.0 to 1.0
+  enabled: true
+  # Only play sounds for long-running tasks (in seconds)
+  min_duration_for_complete: 5.0
+
+# Character lock settings
+# Prevents same character from being used in multiple terminal windows
+locking:
+  enabled: true
+  lock_dir: /tmp/claude-wc2-locks
+  # Clean up locks older than this many hours (handles stale processes)
+  stale_lock_hours: 24

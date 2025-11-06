@@ -1,0 +1,4278 @@
+{
+  "sounds": [
+    {
+      "file": "wc2_sounds/000.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "quiet_settles",
+      "labeled_at": "2025-11-04T22:13:12.798Z"
+    },
+    {
+      "file": "wc2_sounds/001.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "lorderon_victory",
+      "labeled_at": "2025-11-04T22:13:16.563Z"
+    },
+    {
+      "file": "wc2_sounds/002.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "regional_defense",
+      "labeled_at": "2025-11-04T22:13:24.817Z"
+    },
+    {
+      "file": "wc2_sounds/003.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "outpost_food",
+      "labeled_at": "2025-11-04T22:13:43.533Z"
+    },
+    {
+      "file": "wc2_sounds/004.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "elves_of_silvermoon",
+      "labeled_at": "2025-11-04T22:13:54.979Z"
+    },
+    {
+      "file": "wc2_sounds/005.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "lord_terranus",
+      "labeled_at": "2025-11-04T22:14:06.679Z"
+    },
+    {
+      "file": "wc2_sounds/006.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "safe_return_of_elves",
+      "labeled_at": "2025-11-04T22:14:17.489Z"
+    },
+    {
+      "file": "wc2_sounds/007.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "culteras_lorderon_fleet",
+      "labeled_at": "2025-11-04T22:14:31.967Z"
+    },
+    {
+      "file": "wc2_sounds/008.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "display_of_naval_power",
+      "labeled_at": "2025-11-04T22:14:43.304Z"
+    },
+    {
+      "file": "wc2_sounds/009.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "lorderon_artificers",
+      "labeled_at": "2025-11-04T22:14:53.585Z"
+    },
+    {
+      "file": "wc2_sounds/010.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "horde_driven_from_shores",
+      "labeled_at": "2025-11-04T22:15:07.251Z"
+    },
+    {
+      "file": "wc2_sounds/011.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "orchish_outpost_dwarves",
+      "labeled_at": "2025-11-04T22:15:53.089Z"
+    },
+    {
+      "file": "wc2_sounds/012.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "orcs_defeat_dun_algaz",
+      "labeled_at": "2025-11-04T22:16:11.132Z"
+    },
+    {
+      "file": "wc2_sounds/013.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "advanced_scouts_grim_batol",
+      "labeled_at": "2025-11-04T22:17:01.356Z"
+    },
+    {
+      "file": "wc2_sounds/014.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "lothar_khaz_modan",
+      "labeled_at": "2025-11-04T22:17:16.462Z"
+    },
+    {
+      "file": "wc2_sounds/015.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "orcs_withdraw_from_khaz_modan",
+      "labeled_at": "2025-11-04T22:18:57.126Z"
+    },
+    {
+      "file": "wc2_sounds/016.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "tiers_hand",
+      "labeled_at": "2025-11-04T22:19:04.921Z"
+    },
+    {
+      "file": "wc2_sounds/017.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "uther_lightbringer",
+      "labeled_at": "2025-11-04T22:19:17.887Z"
+    },
+    {
+      "file": "wc2_sounds/018.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "alteraac_soldiers_captured",
+      "labeled_at": "2025-11-04T22:19:32.646Z"
+    },
+    {
+      "file": "wc2_sounds/019.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "lothar_alliance_betrayal",
+      "labeled_at": "2025-11-04T22:21:04.501Z"
+    },
+    {
+      "file": "wc2_sounds/020.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "treason_alteraac",
+      "labeled_at": "2025-11-04T22:21:17.143Z"
+    },
+    {
+      "file": "wc2_sounds/021.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "destroyed_alteraac",
+      "labeled_at": "2025-11-04T22:54:52.065Z"
+    },
+    {
+      "file": "wc2_sounds/022.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "horde_reaches_azeroth",
+      "labeled_at": "2025-11-04T22:24:00.866Z"
+    },
+    {
+      "file": "wc2_sounds/023.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "blackrock_spire_siege",
+      "labeled_at": "2025-11-04T22:24:18.859Z"
+    },
+    {
+      "file": "wc2_sounds/024.wav",
+      "category": "story",
+      "faction": "alliance",
+      "label": "great_portal_final_assault",
+      "labeled_at": "2025-11-04T22:24:46.590Z"
+    },
+    {
+      "file": "wc2_sounds/025.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "assault_on_lorderon",
+      "labeled_at": "2025-11-04T22:24:58.820Z"
+    },
+    {
+      "file": "wc2_sounds/026.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "humans_capture_zul_jinn",
+      "labeled_at": "2025-11-04T22:25:22.662Z"
+    },
+    {
+      "file": "wc2_sounds/027.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "prep_for_strike_on_hillsbrad",
+      "labeled_at": "2025-11-04T22:27:28.880Z"
+    },
+    {
+      "file": "wc2_sounds/028.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "construct_shipyard",
+      "labeled_at": "2025-11-04T22:28:59.238Z"
+    },
+    {
+      "file": "wc2_sounds/029.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "attack_hillsbrad",
+      "labeled_at": "2025-11-04T22:29:22.105Z"
+    },
+    {
+      "file": "wc2_sounds/030.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "dwarves_in_khaz_modan",
+      "labeled_at": "2025-11-04T22:30:31.645Z"
+    },
+    {
+      "file": "wc2_sounds/031.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "cho_ghal",
+      "labeled_at": "2025-11-04T22:30:40.743Z"
+    },
+    {
+      "file": "wc2_sounds/032.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "cho_gal_refineries",
+      "labeled_at": "2025-11-04T22:30:56.785Z"
+    },
+    {
+      "file": "wc2_sounds/033.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "stromgard",
+      "labeled_at": "2025-11-04T22:31:57.316Z"
+    },
+    {
+      "file": "wc2_sounds/034.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "southern_border_quel_thalas",
+      "labeled_at": "2025-11-04T22:32:11.628Z"
+    },
+    {
+      "file": "wc2_sounds/035.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "captured_elven_runestone",
+      "labeled_at": "2025-11-04T22:35:38.206Z"
+    },
+    {
+      "file": "wc2_sounds/036.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "stratholme",
+      "labeled_at": "2025-11-04T22:35:47.670Z"
+    },
+    {
+      "file": "wc2_sounds/037.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "unleash_death_knights",
+      "labeled_at": "2025-11-04T22:36:18.880Z"
+    },
+    {
+      "file": "wc2_sounds/038.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "death_knights_necromancy",
+      "labeled_at": "2025-11-04T22:36:38.643Z"
+    },
+    {
+      "file": "wc2_sounds/039.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "northlands_have_fallen",
+      "labeled_at": "2025-11-04T22:36:49.500Z"
+    },
+    {
+      "file": "wc2_sounds/040.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "gul_dan_betrayal",
+      "labeled_at": "2025-11-04T22:37:00.544Z"
+    },
+    {
+      "file": "wc2_sounds/041.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "hour_of_judgement",
+      "labeled_at": "2025-11-04T22:37:17.566Z"
+    },
+    {
+      "file": "wc2_sounds/042.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "dragons",
+      "labeled_at": "2025-11-04T22:37:34.307Z"
+    },
+    {
+      "file": "wc2_sounds/043.wav",
+      "category": "story",
+      "faction": "horde",
+      "label": "attack_on_lorderon",
+      "labeled_at": "2025-11-04T22:39:05.595Z"
+    },
+    {
+      "file": "wc2_sfx/000.wav",
+      "category": "ui",
+      "Name": "Beep",
+      "labeled_at": "2025-11-04T22:39:38.926Z"
+    },
+    {
+      "file": "wc2_sfx/001.wav",
+      "category": "environment",
+      "Name": "Door Close",
+      "labeled_at": "2025-11-04T22:39:55.218Z"
+    },
+    {
+      "file": "wc2_sfx/002.wav",
+      "category": "environment",
+      "Name": "Building Sounds",
+      "labeled_at": "2025-11-04T22:40:09.108Z"
+    },
+    {
+      "file": "wc2_sfx/003.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Your Command",
+      "Unit Type": "Footman",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:36:14.779Z"
+    },
+    {
+      "file": "wc2_sfx/004.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Ee-tok",
+      "Unit Type": "Peon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:36:16.421Z"
+    },
+    {
+      "file": "wc2_sfx/005.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Your orders",
+      "Unit Type": "Footman",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:36:21.559Z"
+    },
+    {
+      "file": "wc2_sfx/006.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Zug Tug",
+      "Unit Type": "Peon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:36:22.969Z"
+    },
+    {
+      "file": "wc2_sfx/007.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Yes Sire",
+      "Unit Type": "Footman",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:36:26.517Z"
+    },
+    {
+      "file": "wc2_sfx/008.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Kloo Dook",
+      "Unit Type": "Peon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:36:27.628Z"
+    },
+    {
+      "file": "wc2_sfx/009.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "yes",
+      "Unit Type": "Footman",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:36:31.421Z"
+    },
+    {
+      "file": "wc2_sfx/010.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Urrrr",
+      "Unit Type": "Grunt, Peon",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:20:05.224Z"
+    },
+    {
+      "file": "wc2_sfx/011.wav",
+      "category": "unit",
+      "Name": "My Lord",
+      "Unit Type": "Footman",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:36:38.598Z"
+    },
+    {
+      "file": "wc2_sfx/012.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Ur Ur Ur",
+      "Unit Type": "Peon, Grunt",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:20:14.577Z"
+    },
+    {
+      "file": "wc2_sfx/013.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "At your service",
+      "Unit Type": "Footman",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:36:44.845Z"
+    },
+    {
+      "file": "wc2_sfx/014.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Hurr",
+      "Unit Type": "Peon, Grunt",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:20:19.346Z"
+    },
+    {
+      "file": "wc2_sfx/015.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Make up your mind",
+      "Unit Type": "Footman",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:36:49.385Z"
+    },
+    {
+      "file": "wc2_sfx/016.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Whaaaat",
+      "Unit Type": "Peon, Grunt",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:20:23.037Z"
+    },
+    {
+      "file": "wc2_sfx/017.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Are you still touching me",
+      "Unit Type": "Footman",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:36:54.860Z"
+    },
+    {
+      "file": "wc2_sfx/018.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Look out",
+      "Unit Type": "Peon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-04T23:14:44.917Z"
+    },
+    {
+      "file": "wc2_sfx/019.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "don't you have a kingdom to run",
+      "Unit Type": "Footman",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:37:00.096Z"
+    },
+    {
+      "file": "wc2_sfx/020.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "missed me",
+      "Unit Type": "Peon, Grunt",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:20:32.500Z"
+    },
+    {
+      "file": "wc2_sfx/021.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I do have work to do",
+      "Unit Type": "Footman",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:37:05.172Z"
+    },
+    {
+      "file": "wc2_sfx/022.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "that tickles",
+      "Unit Type": "Peon",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-04T23:15:42.742Z"
+    },
+    {
+      "file": "wc2_sfx/023.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Knight",
+      "Unit Type": "Footman",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:37:11.061Z"
+    },
+    {
+      "file": "wc2_sfx/024.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "I would not do such things",
+      "Unit Type": "Peon",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-04T23:16:11.840Z"
+    },
+    {
+      "file": "wc2_sfx/025.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "See the world, they said",
+      "Unit Type": "Footman",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:37:15.730Z"
+    },
+    {
+      "file": "wc2_sfx/026.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "My tummy feels funny",
+      "Unit Type": "Peon",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-04T23:16:39.457Z"
+    },
+    {
+      "file": "wc2_sfx/027.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I'd rather be sailing",
+      "Unit Type": "Footman",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:37:19.840Z"
+    },
+    {
+      "file": "wc2_sfx/028.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "burp",
+      "Unit Type": "Peon",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-04T23:17:06.418Z"
+    },
+    {
+      "file": "wc2_sfx/029.wav",
+      "category": "environment",
+      "Name": "Cannon Ball Hit",
+      "labeled_at": "2025-11-04T23:17:18.649Z"
+    },
+    {
+      "file": "wc2_sfx/030.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Yes",
+      "Unit Type": "Footman",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:37:27.010Z"
+    },
+    {
+      "file": "wc2_sfx/031.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Zug zug",
+      "Unit Type": "Peon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:37:27.798Z"
+    },
+    {
+      "file": "wc2_sfx/032.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Yes my lord",
+      "Unit Type": "Footman",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:37:30.994Z"
+    },
+    {
+      "file": "wc2_sfx/033.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Daboo",
+      "Unit Type": "Peon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:37:32.163Z"
+    },
+    {
+      "file": "wc2_sfx/034.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "As you wish",
+      "Unit Type": "Footman",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:37:35.883Z"
+    },
+    {
+      "file": "wc2_sfx/035.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "glok tar",
+      "Unit Type": "Peon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:37:37.176Z"
+    },
+    {
+      "file": "wc2_sfx/036.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "At once sire",
+      "Unit Type": "Footman",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:37:40.384Z"
+    },
+    {
+      "file": "wc2_sfx/037.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Swovoo",
+      "Unit Type": "Peon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:37:41.231Z"
+    },
+    {
+      "file": "wc2_sfx/038.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Work completed",
+      "Unit Type": "Footman",
+      "Speech Type": "Complete",
+      "labeled_at": "2025-11-05T00:37:46.797Z"
+    },
+    {
+      "file": "wc2_sfx/039.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Work complete",
+      "Unit Type": "Peon",
+      "Speech Type": "Complete",
+      "labeled_at": "2025-11-05T00:37:47.862Z"
+    },
+    {
+      "file": "wc2_sfx/040.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Job's done",
+      "Unit Type": "Peasant",
+      "Speech Type": "Complete",
+      "labeled_at": "2025-11-05T00:37:48.596Z"
+    },
+    {
+      "file": "wc2_sfx/041.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Awaiting orders",
+      "Unit Type": "Footman",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:37:54.426Z"
+    },
+    {
+      "file": "wc2_sfx/042.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Your Command Master",
+      "Unit Type": "Grunt",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:37:56.046Z"
+    },
+    {
+      "file": "wc2_sfx/043.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "We are under attack",
+      "Unit Type": "Footman",
+      "Speech Type": "Alert",
+      "labeled_at": "2025-11-05T00:37:59.519Z"
+    },
+    {
+      "file": "wc2_sfx/044.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "We're being attack",
+      "Unit Type": "Grunt",
+      "Speech Type": "Alert",
+      "labeled_at": "2025-11-05T00:38:00.624Z"
+    },
+    {
+      "file": "wc2_sfx/045.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Town is under attack",
+      "Unit Type": "Footman",
+      "Speech Type": "Alert",
+      "labeled_at": "2025-11-05T00:38:03.976Z"
+    },
+    {
+      "file": "wc2_sfx/046.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "They're destroying our city",
+      "Unit Type": "Grunt",
+      "Speech Type": "Alert",
+      "labeled_at": "2025-11-05T00:38:04.912Z"
+    },
+    {
+      "file": "wc2_sfx/047.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Death noise",
+      "Unit Type": "Footman",
+      "Speech Type": "Death",
+      "labeled_at": "2025-11-05T00:38:08.346Z"
+    },
+    {
+      "file": "wc2_sfx/048.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Death noise",
+      "Unit Type": "Peon",
+      "Speech Type": "Death",
+      "labeled_at": "2025-11-05T00:38:09.365Z"
+    },
+    {
+      "file": "wc2_sfx/049.wav",
+      "category": "environment",
+      "Name": "oil bubbles",
+      "labeled_at": "2025-11-05T00:38:10.619Z"
+    },
+    {
+      "file": "wc2_sfx/050.wav",
+      "category": "environment",
+      "Name": "building destroyed",
+      "labeled_at": "2025-11-05T00:38:11.097Z"
+    },
+    {
+      "file": "wc2_sfx/051.wav",
+      "category": "environment",
+      "Name": "building destroyed",
+      "labeled_at": "2025-11-05T00:38:11.339Z"
+    },
+    {
+      "file": "wc2_sfx/052.wav",
+      "category": "environment",
+      "Name": "building destroyed",
+      "labeled_at": "2025-11-05T00:38:11.519Z"
+    },
+    {
+      "file": "wc2_sfx/053.wav",
+      "category": "environment",
+      "Name": "large projectile launch",
+      "labeled_at": "2025-11-05T00:38:11.669Z"
+    },
+    {
+      "file": "wc2_sfx/054.wav",
+      "category": "environment",
+      "Name": "wood chop",
+      "labeled_at": "2025-11-05T00:38:11.819Z"
+    },
+    {
+      "file": "wc2_sfx/055.wav",
+      "category": "environment",
+      "Name": "wood chop",
+      "labeled_at": "2025-11-05T00:38:11.961Z"
+    },
+    {
+      "file": "wc2_sfx/056.wav",
+      "category": "environment",
+      "Name": "wood chop",
+      "labeled_at": "2025-11-04T23:42:21.841Z"
+    },
+    {
+      "file": "wc2_sfx/057.wav",
+      "category": "environment",
+      "Name": "wood chop",
+      "labeled_at": "2025-11-04T23:42:27.001Z"
+    },
+    {
+      "file": "wc2_sfx/058.wav",
+      "category": "environment",
+      "Name": "sword clank",
+      "labeled_at": "2025-11-04T23:42:38.001Z"
+    },
+    {
+      "file": "wc2_sfx/059.wav",
+      "category": "environment",
+      "Name": "sword clank",
+      "labeled_at": "2025-11-04T23:42:43.453Z"
+    },
+    {
+      "file": "wc2_sfx/060.wav",
+      "category": "environment",
+      "Name": "sword clank",
+      "labeled_at": "2025-11-04T23:42:48.413Z"
+    },
+    {
+      "file": "wc2_sfx/061.wav",
+      "category": "environment",
+      "Name": "hit",
+      "labeled_at": "2025-11-04T23:42:59.223Z"
+    },
+    {
+      "file": "wc2_sfx/062.wav",
+      "category": "environment",
+      "Name": "hit",
+      "labeled_at": "2025-11-04T23:43:02.709Z"
+    },
+    {
+      "file": "wc2_sfx/063.wav",
+      "category": "environment",
+      "Name": "flap",
+      "labeled_at": "2025-11-04T23:43:07.451Z"
+    },
+    {
+      "file": "wc2_sfx/064.wav",
+      "category": "environment",
+      "Name": "arrow release",
+      "labeled_at": "2025-11-04T23:43:14.436Z"
+    },
+    {
+      "file": "wc2_sfx/065.wav",
+      "category": "environment",
+      "Name": "arrow hit",
+      "labeled_at": "2025-11-04T23:43:18.910Z"
+    },
+    {
+      "file": "wc2_sfx/066.wav",
+      "category": "environment",
+      "Name": "magic",
+      "labeled_at": "2025-11-04T23:43:23.133Z"
+    },
+    {
+      "file": "wc2_sfx/067.wav",
+      "category": "environment",
+      "Name": "blacksmith",
+      "labeled_at": "2025-11-04T23:43:28.055Z"
+    },
+    {
+      "file": "wc2_sfx/068.wav",
+      "category": "environment",
+      "Name": "church",
+      "labeled_at": "2025-11-04T23:43:35.875Z"
+    },
+    {
+      "file": "wc2_sfx/069.wav",
+      "category": "environment",
+      "Name": "ogre mound",
+      "labeled_at": "2025-11-04T23:43:48.546Z"
+    },
+    {
+      "file": "wc2_sfx/070.wav",
+      "category": "environment",
+      "Name": "horse whinnie",
+      "labeled_at": "2025-11-04T23:44:01.086Z"
+    },
+    {
+      "file": "wc2_sfx/071.wav",
+      "category": "environment",
+      "Name": "ogre mound",
+      "labeled_at": "2025-11-04T23:44:12.915Z"
+    },
+    {
+      "file": "wc2_sfx/072.wav",
+      "category": "environment",
+      "Name": "human farm sound",
+      "labeled_at": "2025-11-04T23:44:20.369Z"
+    },
+    {
+      "file": "wc2_sfx/073.wav",
+      "category": "environment",
+      "Name": "horde farm sound",
+      "labeled_at": "2025-11-04T23:47:36.364Z"
+    },
+    {
+      "file": "wc2_sfx/074.wav",
+      "category": "environment",
+      "Name": "blacksmith",
+      "labeled_at": "2025-11-04T23:47:45.325Z"
+    },
+    {
+      "file": "wc2_sfx/075.wav",
+      "category": "environment",
+      "Name": "troll axe throw",
+      "labeled_at": "2025-11-04T23:47:54.452Z"
+    },
+    {
+      "file": "wc2_sfx/076.wav",
+      "category": "environment",
+      "Name": "oil rig horn",
+      "labeled_at": "2025-11-04T23:48:04.000Z"
+    },
+    {
+      "file": "wc2_sfx/077.wav",
+      "category": "environment",
+      "Name": "hit",
+      "labeled_at": "2025-11-04T23:48:09.266Z"
+    },
+    {
+      "file": "wc2_sfx/078.wav",
+      "category": "environment",
+      "Name": "boat bell",
+      "labeled_at": "2025-11-04T23:48:14.165Z"
+    },
+    {
+      "file": "wc2_sfx/079.wav",
+      "category": "environment",
+      "Name": "hit",
+      "labeled_at": "2025-11-04T23:48:17.960Z"
+    },
+    {
+      "file": "wc2_sfx/080.wav",
+      "category": "environment",
+      "Name": "oil gloop",
+      "labeled_at": "2025-11-04T23:48:24.920Z"
+    },
+    {
+      "file": "wc2_sfx/081.wav",
+      "category": "environment",
+      "Name": "oil processing",
+      "labeled_at": "2025-11-04T23:48:30.472Z"
+    },
+    {
+      "file": "wc2_sfx/082.wav",
+      "category": "environment",
+      "Name": "lumber mill",
+      "labeled_at": "2025-11-04T23:48:37.256Z"
+    },
+    {
+      "file": "wc2_sfx/083.wav",
+      "category": "environment",
+      "Name": "ship sails noise",
+      "labeled_at": "2025-11-04T23:48:51.163Z"
+    },
+    {
+      "file": "wc2_sfx/084.wav",
+      "category": "environment",
+      "Name": "fire",
+      "labeled_at": "2025-11-04T23:48:55.767Z"
+    },
+    {
+      "file": "wc2_sfx/085.wav",
+      "category": "environment",
+      "Name": "gryphon",
+      "labeled_at": "2025-11-04T23:49:00.910Z"
+    },
+    {
+      "file": "wc2_sfx/086.wav",
+      "category": "environment",
+      "Name": "dragon",
+      "labeled_at": "2025-11-04T23:49:04.529Z"
+    },
+    {
+      "file": "wc2_sfx/087.wav",
+      "category": "environment",
+      "Name": "forge / foundary",
+      "labeled_at": "2025-11-04T23:49:11.729Z"
+    },
+    {
+      "file": "wc2_sfx/088.wav",
+      "category": "environment",
+      "Name": "gnomish research",
+      "labeled_at": "2025-11-04T23:49:18.868Z"
+    },
+    {
+      "file": "wc2_sfx/089.wav",
+      "category": "environment",
+      "Name": "firey gloop",
+      "labeled_at": "2025-11-04T23:49:25.573Z"
+    },
+    {
+      "file": "wc2_sfx/090.wav",
+      "category": "environment",
+      "Name": "mage tower",
+      "labeled_at": "2025-11-04T23:49:30.942Z"
+    },
+    {
+      "file": "wc2_sfx/091.wav",
+      "category": "environment",
+      "Name": "death knight altar",
+      "labeled_at": "2025-11-04T23:49:39.479Z"
+    },
+    {
+      "file": "wc2_sfx/092.wav",
+      "category": "environment",
+      "Name": "alliance capture noise",
+      "labeled_at": "2025-11-04T23:49:59.263Z"
+    },
+    {
+      "file": "wc2_sfx/093.wav",
+      "category": "environment",
+      "Name": "horde capture noise",
+      "labeled_at": "2025-11-04T23:50:05.514Z"
+    },
+    {
+      "file": "wc2_sfx/094.wav",
+      "category": "environment",
+      "Name": "alliance victory",
+      "labeled_at": "2025-11-04T23:50:13.643Z"
+    },
+    {
+      "file": "wc2_sfx/095.wav",
+      "category": "environment",
+      "Name": "horde victory",
+      "labeled_at": "2025-11-04T23:50:19.653Z"
+    },
+    {
+      "file": "wc2_sfx/096.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Ogre Bloodrage",
+      "Unit Type": "Orgre",
+      "Speech Type": "Effect",
+      "labeled_at": "2025-11-05T00:17:56.809Z"
+    },
+    {
+      "file": "wc2_sfx/097.wav",
+      "category": "environment",
+      "Name": "Sizzling",
+      "labeled_at": "2025-11-04T23:51:06.782Z"
+    },
+    {
+      "file": "wc2_sfx/098.wav",
+      "category": "environment",
+      "Name": "Death coil spell",
+      "labeled_at": "2025-11-04T23:51:15.746Z"
+    },
+    {
+      "file": "wc2_sfx/099.wav",
+      "category": "environment",
+      "Name": "Exorcism spell",
+      "labeled_at": "2025-11-04T23:51:25.764Z"
+    },
+    {
+      "file": "wc2_sfx/100.wav",
+      "category": "environment",
+      "Name": "Flame spell",
+      "labeled_at": "2025-11-04T23:51:31.113Z"
+    },
+    {
+      "file": "wc2_sfx/101.wav",
+      "category": "environment",
+      "Name": "Haste spell",
+      "labeled_at": "2025-11-04T23:51:36.544Z"
+    },
+    {
+      "file": "wc2_sfx/102.wav",
+      "category": "environment",
+      "Name": "Heal spell",
+      "labeled_at": "2025-11-04T23:51:42.132Z"
+    },
+    {
+      "file": "wc2_sfx/103.wav",
+      "category": "environment",
+      "Name": "Reveal map spell",
+      "labeled_at": "2025-11-04T23:51:53.343Z"
+    },
+    {
+      "file": "wc2_sfx/104.wav",
+      "category": "environment",
+      "Name": "Blizzard spell",
+      "labeled_at": "2025-11-04T23:51:59.860Z"
+    },
+    {
+      "file": "wc2_sfx/105.wav",
+      "category": "environment",
+      "Name": "Invisibility spell",
+      "labeled_at": "2025-11-04T23:52:06.567Z"
+    },
+    {
+      "file": "wc2_sfx/106.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Ahhhh",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Effect",
+      "labeled_at": "2025-11-05T00:17:34.156Z"
+    },
+    {
+      "file": "wc2_sfx/107.wav",
+      "category": "environment",
+      "Name": "Polymorph",
+      "labeled_at": "2025-11-04T23:52:28.131Z"
+    },
+    {
+      "file": "wc2_sfx/108.wav",
+      "category": "environment",
+      "Name": "Slow spell",
+      "labeled_at": "2025-11-04T23:52:32.575Z"
+    },
+    {
+      "file": "wc2_sfx/109.wav",
+      "category": "environment",
+      "Name": "Lightning spell",
+      "labeled_at": "2025-11-04T23:52:41.073Z"
+    },
+    {
+      "file": "wc2_sfx/110.wav",
+      "category": "environment",
+      "Name": "Death Knight Attack",
+      "labeled_at": "2025-11-04T23:52:52.030Z"
+    },
+    {
+      "file": "wc2_sfx/111.wav",
+      "category": "environment",
+      "Name": "Sword Clank",
+      "labeled_at": "2025-11-04T23:52:57.980Z"
+    },
+    {
+      "file": "wc2_sfx/112.wav",
+      "category": "environment",
+      "Name": "Blizzard spell",
+      "labeled_at": "2025-11-04T23:53:05.456Z"
+    },
+    {
+      "file": "wc2_sfx/113.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "ready to work",
+      "Unit Type": "Peon",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-04T23:53:15.284Z"
+    },
+    {
+      "file": "wc2_sfx/114.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "I'm growing impatient",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:17:14.341Z"
+    },
+    {
+      "file": "wc2_sfx/115.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Don't Push It",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:17:17.304Z"
+    },
+    {
+      "file": "wc2_sfx/116.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "When my work is finished I'm coming back for you",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:07:54.712Z"
+    },
+    {
+      "file": "wc2_sfx/117.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "I'm alive",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:38:47.725Z"
+    },
+    {
+      "file": "wc2_sfx/118.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:08:19.039Z"
+    },
+    {
+      "file": "wc2_sfx/119.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Make it quick",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:08:36.823Z"
+    },
+    {
+      "file": "wc2_sfx/120.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Of course, master",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:08:49.852Z"
+    },
+    {
+      "file": "wc2_sfx/121.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Very well",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:09:01.648Z"
+    },
+    {
+      "file": "wc2_sfx/122.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Grunt",
+      "Unit Type": "Death Knight",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:09:18.230Z"
+    },
+    {
+      "file": "wc2_sfx/123.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I love blowing things up",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:09:46.027Z"
+    },
+    {
+      "file": "wc2_sfx/124.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Bombs are great",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:09:57.569Z"
+    },
+    {
+      "file": "wc2_sfx/125.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Tilt one back with me dog",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:10:12.749Z"
+    },
+    {
+      "file": "wc2_sfx/126.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Dwarves ready",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:10:27.253Z"
+    },
+    {
+      "file": "wc2_sfx/127.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "What do you want",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:10:41.431Z"
+    },
+    {
+      "file": "wc2_sfx/128.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Auch",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:10:53.627Z"
+    },
+    {
+      "file": "wc2_sfx/129.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Aie laddie",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:11:04.267Z"
+    },
+    {
+      "file": "wc2_sfx/130.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "OK",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:11:12.466Z"
+    },
+    {
+      "file": "wc2_sfx/131.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Alright",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:38:56.068Z"
+    },
+    {
+      "file": "wc2_sfx/132.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Move Out",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:11:29.377Z"
+    },
+    {
+      "file": "wc2_sfx/133.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Yes Sir",
+      "Unit Type": "Dwarvish Demo Squad",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:11:37.165Z"
+    },
+    {
+      "file": "wc2_sfx/134.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "We must take action",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:12:34.322Z"
+    },
+    {
+      "file": "wc2_sfx/135.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Time is of the essence",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:12:52.107Z"
+    },
+    {
+      "file": "wc2_sfx/136.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Even elder races get tired of waiting",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:13:07.349Z"
+    },
+    {
+      "file": "wc2_sfx/137.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I come to serve",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:16:56.356Z"
+    },
+    {
+      "file": "wc2_sfx/138.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Your eminence",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:22:03.634Z"
+    },
+    {
+      "file": "wc2_sfx/139.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "exalted one",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:22:43.056Z"
+    },
+    {
+      "file": "wc2_sfx/140.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "my sovereign",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:22:55.821Z"
+    },
+    {
+      "file": "wc2_sfx/141.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Your wish",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:23:08.804Z"
+    },
+    {
+      "file": "wc2_sfx/142.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Yes",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:23:16.957Z"
+    },
+    {
+      "file": "wc2_sfx/143.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "By your command",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:23:27.622Z"
+    },
+    {
+      "file": "wc2_sfx/144.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "for the alliance",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:24:08.445Z"
+    },
+    {
+      "file": "wc2_sfx/145.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "move out",
+      "Unit Type": "Elven Archer",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:24:19.890Z"
+    },
+    {
+      "file": "wc2_sfx/146.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Hello, Sonny",
+      "Unit Type": "Gnomish Flying Machine",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:25:06.638Z"
+    },
+    {
+      "file": "wc2_sfx/147.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Want me to fly?",
+      "Unit Type": "Gnomish Flying Machine",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:24:55.996Z"
+    },
+    {
+      "file": "wc2_sfx/148.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Are you listening",
+      "Unit Type": "Gnomish Flying Machine",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:25:20.351Z"
+    },
+    {
+      "file": "wc2_sfx/149.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I'm flying",
+      "Unit Type": "Gnomish Flying Machine",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:25:31.546Z"
+    },
+    {
+      "file": "wc2_sfx/150.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Goodbye",
+      "Unit Type": "Gnomish Flying Machine",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:25:40.615Z"
+    },
+    {
+      "file": "wc2_sfx/151.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I've got a flying machine",
+      "Unit Type": "Gnomish Flying Machine",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:25:54.612Z"
+    },
+    {
+      "file": "wc2_sfx/152.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "flying noise",
+      "Unit Type": "Gnomish Flying Machine",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:26:06.482Z"
+    },
+    {
+      "file": "wc2_sfx/153.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "We've got explosives",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:26:23.906Z"
+    },
+    {
+      "file": "wc2_sfx/154.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Kaboom",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:26:39.733Z"
+    },
+    {
+      "file": "wc2_sfx/155.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Aw it's beau-tee-ful",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:27:00.939Z"
+    },
+    {
+      "file": "wc2_sfx/156.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "We're ready",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:27:13.384Z"
+    },
+    {
+      "file": "wc2_sfx/157.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "What",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:27:25.654Z"
+    },
+    {
+      "file": "wc2_sfx/158.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:27:39.220Z"
+    },
+    {
+      "file": "wc2_sfx/159.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Who is it",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:27:49.502Z"
+    },
+    {
+      "file": "wc2_sfx/160.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Hello",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:28:00.828Z"
+    },
+    {
+      "file": "wc2_sfx/161.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Okay",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:28:09.522Z"
+    },
+    {
+      "file": "wc2_sfx/162.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Certainly",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:28:24.078Z"
+    },
+    {
+      "file": "wc2_sfx/163.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes, boss",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:32:12.931Z"
+    },
+    {
+      "file": "wc2_sfx/164.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "alright",
+      "Unit Type": "Goblin Demolition Crew",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:32:22.807Z"
+    },
+    {
+      "file": "wc2_sfx/165.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "I can see my house",
+      "Unit Type": "Goblin Zeppelin",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:34:52.233Z"
+    },
+    {
+      "file": "wc2_sfx/166.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "I wish I had a weapon",
+      "Unit Type": "Goblin Zeppelin",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:34:52.943Z"
+    },
+    {
+      "file": "wc2_sfx/167.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Here I am",
+      "Unit Type": "Goblin Zeppelin",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:35:04.352Z"
+    },
+    {
+      "file": "wc2_sfx/168.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Movement",
+      "Unit Type": "Goblin Zeppelin",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:35:14.087Z"
+    },
+    {
+      "file": "wc2_sfx/169.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I need orders",
+      "Unit Type": "Knight",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:35:33.390Z"
+    },
+    {
+      "file": "wc2_sfx/170.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Give me a quest",
+      "Unit Type": "Knight",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:39:35.061Z"
+    },
+    {
+      "file": "wc2_sfx/171.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Don't force me to run you through",
+      "Unit Type": "Knight",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:39:51.884Z"
+    },
+    {
+      "file": "wc2_sfx/172.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Ready to serve my lord",
+      "Unit Type": "Knight",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:40:05.556Z"
+    },
+    {
+      "file": "wc2_sfx/173.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Your majesty",
+      "Unit Type": "Knight",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:40:21.283Z"
+    },
+    {
+      "file": "wc2_sfx/174.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "At your service",
+      "Unit Type": "Knight",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:40:33.811Z"
+    },
+    {
+      "file": "wc2_sfx/175.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Sire",
+      "Unit Type": "Knight",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:40:45.451Z"
+    },
+    {
+      "file": "wc2_sfx/176.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "What ho",
+      "Unit Type": "Knight",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:40:56.116Z"
+    },
+    {
+      "file": "wc2_sfx/177.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "We move",
+      "Unit Type": "Knight",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:41:09.194Z"
+    },
+    {
+      "file": "wc2_sfx/178.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "In your name",
+      "Unit Type": "Knight",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:41:19.464Z"
+    },
+    {
+      "file": "wc2_sfx/179.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "For the king",
+      "Unit Type": "Knight",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:41:31.276Z"
+    },
+    {
+      "file": "wc2_sfx/180.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Defending your honor",
+      "Unit Type": "Knight",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:41:43.351Z"
+    },
+    {
+      "file": "wc2_sfx/181.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I need orders",
+      "Unit Type": "Palidin",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:41:59.750Z"
+    },
+    {
+      "file": "wc2_sfx/182.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Give me a quest",
+      "Unit Type": "Palidin",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:42:13.266Z"
+    },
+    {
+      "file": "wc2_sfx/183.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Don't force me to run you through",
+      "Unit Type": "Palidin",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:42:26.374Z"
+    },
+    {
+      "file": "wc2_sfx/184.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Ready to serve my lord",
+      "Unit Type": "Palidin",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:42:42.497Z"
+    },
+    {
+      "file": "wc2_sfx/185.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Your majesty?",
+      "Unit Type": "Palidin",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:44:36.922Z"
+    },
+    {
+      "file": "wc2_sfx/186.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "At your service",
+      "Unit Type": "Palidin",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:44:45.961Z"
+    },
+    {
+      "file": "wc2_sfx/187.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Sire",
+      "Unit Type": "Palidin",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:44:54.055Z"
+    },
+    {
+      "file": "wc2_sfx/188.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "What ho",
+      "Unit Type": "Palidin",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:45:05.091Z"
+    },
+    {
+      "file": "wc2_sfx/189.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "We move",
+      "Unit Type": "Palidin",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:45:15.284Z"
+    },
+    {
+      "file": "wc2_sfx/190.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "in your name",
+      "Unit Type": "Palidin",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:45:23.548Z"
+    },
+    {
+      "file": "wc2_sfx/191.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "for the king",
+      "Unit Type": "Palidin",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:45:36.141Z"
+    },
+    {
+      "file": "wc2_sfx/192.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "defending your honor",
+      "Unit Type": "Palidin",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:45:49.288Z"
+    },
+    {
+      "file": "wc2_sfx/193.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes master / I don't want to",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:46:13.913Z"
+    },
+    {
+      "file": "wc2_sfx/194.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Alright / now I'm hungry",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:46:37.881Z"
+    },
+    {
+      "file": "wc2_sfx/195.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "This way / no that way",
+      "Unit Type": "Orgre",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:46:49.765Z"
+    },
+    {
+      "file": "wc2_sfx/196.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "burp / he did it",
+      "Unit Type": "Orgre",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:47:02.634Z"
+    },
+    {
+      "file": "wc2_sfx/197.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "fart",
+      "Unit Type": "Orgre",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:47:15.319Z"
+    },
+    {
+      "file": "wc2_sfx/198.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Ready Master / Not Ready",
+      "Unit Type": "Orgre",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:47:37.845Z"
+    },
+    {
+      "file": "wc2_sfx/199.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Huh / What",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:47:51.565Z"
+    },
+    {
+      "file": "wc2_sfx/200.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "What / Huh",
+      "Unit Type": "Orgre",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:48:05.109Z"
+    },
+    {
+      "file": "wc2_sfx/201.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:48:15.551Z"
+    },
+    {
+      "file": "wc2_sfx/202.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Master",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:48:26.784Z"
+    },
+    {
+      "file": "wc2_sfx/203.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "OK",
+      "Unit Type": "Orgre",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:48:40.718Z"
+    },
+    {
+      "file": "wc2_sfx/204.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes Master",
+      "Unit Type": "Orgre",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:48:52.337Z"
+    },
+    {
+      "file": "wc2_sfx/205.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Alright",
+      "Unit Type": "Orgre",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:49:03.346Z"
+    },
+    {
+      "file": "wc2_sfx/206.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Burp / we did it",
+      "Unit Type": "Orgre",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:49:19.398Z"
+    },
+    {
+      "file": "wc2_sfx/207.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "We're not brainless anymore",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:49:36.822Z"
+    },
+    {
+      "file": "wc2_sfx/208.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "I've got the brain / huh uh",
+      "Unit Type": "Orgre",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:49:52.533Z"
+    },
+    {
+      "file": "wc2_sfx/209.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "We're ready master",
+      "Unit Type": "Orgre",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:50:05.171Z"
+    },
+    {
+      "file": "wc2_sfx/210.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes Master",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:50:13.833Z"
+    },
+    {
+      "file": "wc2_sfx/211.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "What?",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:50:21.580Z"
+    },
+    {
+      "file": "wc2_sfx/212.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:50:29.650Z"
+    },
+    {
+      "file": "wc2_sfx/213.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "What is it",
+      "Unit Type": "Orgre",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:50:41.147Z"
+    },
+    {
+      "file": "wc2_sfx/214.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes master",
+      "Unit Type": "Orgre",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:50:51.282Z"
+    },
+    {
+      "file": "wc2_sfx/215.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Of course",
+      "Unit Type": "Orgre",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:51:02.524Z"
+    },
+    {
+      "file": "wc2_sfx/216.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Right away",
+      "Unit Type": "Orgre",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:51:31.870Z"
+    },
+    {
+      "file": "wc2_sfx/217.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Stop rocking the boat",
+      "Unit Type": "Ship",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:52:03.860Z"
+    },
+    {
+      "file": "wc2_sfx/218.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yo Ho",
+      "Unit Type": "Ship",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:52:18.147Z"
+    },
+    {
+      "file": "wc2_sfx/219.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "You're making me sea-sick",
+      "Unit Type": "Ship",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:52:30.965Z"
+    },
+    {
+      "file": "wc2_sfx/220.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Who wants to sing",
+      "Unit Type": "Ship",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:52:43.304Z"
+    },
+    {
+      "file": "wc2_sfx/221.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Barf",
+      "Unit Type": "Ship",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:52:56.879Z"
+    },
+    {
+      "file": "wc2_sfx/222.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Daboo sing",
+      "Unit Type": "Ship",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T00:53:06.401Z"
+    },
+    {
+      "file": "wc2_sfx/223.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Captain on the bridge",
+      "Unit Type": "Ship",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:53:17.456Z"
+    },
+    {
+      "file": "wc2_sfx/224.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Done building ship",
+      "Unit Type": "Ship",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:53:32.345Z"
+    },
+    {
+      "file": "wc2_sfx/225.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Aye captain",
+      "Unit Type": "Ship",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:53:42.576Z"
+    },
+    {
+      "file": "wc2_sfx/226.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Arg",
+      "Unit Type": "Ship",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:53:58.739Z"
+    },
+    {
+      "file": "wc2_sfx/227.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Skipper",
+      "Unit Type": "Ship",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:54:11.137Z"
+    },
+    {
+      "file": "wc2_sfx/228.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Aye matey",
+      "Unit Type": "Ship",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:54:27.069Z"
+    },
+    {
+      "file": "wc2_sfx/229.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Set sail",
+      "Unit Type": "Ship",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:54:38.406Z"
+    },
+    {
+      "file": "wc2_sfx/230.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Yes captain",
+      "Unit Type": "Ship",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:54:48.136Z"
+    },
+    {
+      "file": "wc2_sfx/231.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Aye Aye sir",
+      "Unit Type": "Ship",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:54:58.921Z"
+    },
+    {
+      "file": "wc2_sfx/232.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Ahoy",
+      "Unit Type": "Ship",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:55:08.613Z"
+    },
+    {
+      "file": "wc2_sfx/233.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Aye Captain",
+      "Unit Type": "Ship",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:55:20.324Z"
+    },
+    {
+      "file": "wc2_sfx/234.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "I would love to",
+      "Unit Type": "Ship",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:55:33.802Z"
+    },
+    {
+      "file": "wc2_sfx/235.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Underway",
+      "Unit Type": "Ship",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:55:45.817Z"
+    },
+    {
+      "file": "wc2_sfx/236.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "You're the captain",
+      "Unit Type": "Ship",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:55:57.862Z"
+    },
+    {
+      "file": "wc2_sfx/237.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Gurgling",
+      "Unit Type": "Gnomish Submarine",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:56:22.403Z"
+    },
+    {
+      "file": "wc2_sfx/238.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Gurgle 2",
+      "Unit Type": "Gnomish Submarine",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:56:35.905Z"
+    },
+    {
+      "file": "wc2_sfx/239.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Gurgle",
+      "Unit Type": "Gnomish Submarine",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:56:47.295Z"
+    },
+    {
+      "file": "wc2_sfx/240.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Gurgle",
+      "Unit Type": "Gnomish Submarine",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:57:05.613Z"
+    },
+    {
+      "file": "wc2_sfx/241.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "I got axe for you",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:57:22.515Z"
+    },
+    {
+      "file": "wc2_sfx/242.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "gibberish",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:57:31.929Z"
+    },
+    {
+      "file": "wc2_sfx/243.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Say hello to my little friend",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:57:45.243Z"
+    },
+    {
+      "file": "wc2_sfx/244.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "New Troll Here",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:57:58.194Z"
+    },
+    {
+      "file": "wc2_sfx/245.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "You Call Me",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:58:11.179Z"
+    },
+    {
+      "file": "wc2_sfx/246.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Troll attacks",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:58:22.549Z"
+    },
+    {
+      "file": "wc2_sfx/247.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Who'd you wanna kill",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:58:33.737Z"
+    },
+    {
+      "file": "wc2_sfx/248.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Okay",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:58:44.853Z"
+    },
+    {
+      "file": "wc2_sfx/249.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Alright",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:58:52.347Z"
+    },
+    {
+      "file": "wc2_sfx/250.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "You da boss",
+      "Unit Type": "Troll Axe Thrower",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T00:59:02.733Z"
+    },
+    {
+      "file": "wc2_sfx/251.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I'm a busy man",
+      "Unit Type": "Mage",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T00:59:14.243Z"
+    },
+    {
+      "file": "wc2_sfx/252.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Don't anger me",
+      "Unit Type": "Mage",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:59:26.222Z"
+    },
+    {
+      "file": "wc2_sfx/253.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I warned you",
+      "Unit Type": "Mage",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T00:59:39.059Z"
+    },
+    {
+      "file": "wc2_sfx/254.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Who summoned me",
+      "Unit Type": "Mage",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T00:59:54.080Z"
+    },
+    {
+      "file": "wc2_sfx/255.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "What is it",
+      "Unit Type": "Mage",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:00:06.125Z"
+    },
+    {
+      "file": "wc2_sfx/256.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Do you need assistance",
+      "Unit Type": "Mage",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:00:17.397Z"
+    },
+    {
+      "file": "wc2_sfx/257.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Your request?",
+      "Unit Type": "Mage",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:00:27.487Z"
+    },
+    {
+      "file": "wc2_sfx/258.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "As you wish",
+      "Unit Type": "Mage",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:00:36.409Z"
+    },
+    {
+      "file": "wc2_sfx/259.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Very well",
+      "Unit Type": "Mage",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:00:45.801Z"
+    },
+    {
+      "file": "wc2_sfx/260.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Alright",
+      "Unit Type": "Mage",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:00:54.477Z"
+    },
+    {
+      "file": "wc2_sfx/261.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Ready to serve",
+      "Unit Type": "Peasant",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T01:01:26.090Z"
+    },
+    {
+      "file": "wc2_sfx/262.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Oh what",
+      "Unit Type": "Peasant",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:01:36.734Z"
+    },
+    {
+      "file": "wc2_sfx/263.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Ye uh huh",
+      "Unit Type": "Peasant",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:01:52.546Z"
+    },
+    {
+      "file": "wc2_sfx/264.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Now what",
+      "Unit Type": "Peasant",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T01:02:03.434Z"
+    },
+    {
+      "file": "wc2_sfx/265.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "More work",
+      "Unit Type": "Peasant",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T01:02:13.888Z"
+    },
+    {
+      "file": "wc2_sfx/266.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Leave me alone",
+      "Unit Type": "Peasant",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T01:02:21.405Z"
+    },
+    {
+      "file": "wc2_sfx/267.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I don't want to do this",
+      "Unit Type": "Peasant",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T01:02:31.092Z"
+    },
+    {
+      "file": "wc2_sfx/268.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "I'm not listening",
+      "Unit Type": "Peasant",
+      "Speech Type": "Silly",
+      "labeled_at": "2025-11-05T01:02:42.959Z"
+    },
+    {
+      "file": "wc2_sfx/269.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Yes",
+      "Unit Type": "Peasant",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:02:50.365Z"
+    },
+    {
+      "file": "wc2_sfx/270.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Milord",
+      "Unit Type": "Peasant",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:03:01.019Z"
+    },
+    {
+      "file": "wc2_sfx/271.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "What is it",
+      "Unit Type": "Peasant",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:03:10.689Z"
+    },
+    {
+      "file": "wc2_sfx/272.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Hello",
+      "Unit Type": "Peasant",
+      "Speech Type": "Greeting",
+      "labeled_at": "2025-11-05T01:03:19.574Z"
+    },
+    {
+      "file": "wc2_sfx/273.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "okay",
+      "Unit Type": "Peasant",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:03:29.654Z"
+    },
+    {
+      "file": "wc2_sfx/274.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Righto",
+      "Unit Type": "Peasant",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:03:41.183Z"
+    },
+    {
+      "file": "wc2_sfx/275.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Alright",
+      "Unit Type": "Peasant",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:03:49.678Z"
+    },
+    {
+      "file": "wc2_sfx/276.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Yesh milord",
+      "Unit Type": "Peasant",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:03:57.870Z"
+    },
+    {
+      "file": "wc2_sfx/277.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Screech",
+      "Unit Type": "Dragon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:04:15.675Z"
+    },
+    {
+      "file": "wc2_sfx/278.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Screech",
+      "Unit Type": "Dragon",
+      "Speech Type": "Annoyed",
+      "labeled_at": "2025-11-05T01:04:33.389Z"
+    },
+    {
+      "file": "wc2_sfx/279.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Screech",
+      "Unit Type": "Dragon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:04:43.689Z"
+    },
+    {
+      "file": "wc2_sfx/280.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Screench",
+      "Unit Type": "Dragon",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:04:52.840Z"
+    },
+    {
+      "file": "wc2_sfx/281.wav",
+      "category": "unit",
+      "faction": "horde",
+      "Name": "Wings flapping",
+      "Unit Type": "Dragon",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T01:05:31.038Z"
+    },
+    {
+      "file": "wc2_sfx/282.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Caw",
+      "Unit Type": "Gryphon Rider",
+      "Speech Type": "Ready",
+      "labeled_at": "2025-11-05T01:05:50.266Z"
+    },
+    {
+      "file": "wc2_sfx/283.wav",
+      "category": "unit",
+      "faction": "alliance",
+      "Name": "Caw",
+      "Unit Type": "Gryphon Rider",
+      "Speech Type": "Acknowledge",
+      "labeled_at": "2025-11-05T01:06:01.884Z"
+    },
+    {
+      "file": "wc2_sfx/284.wav",
+      "category": "environment",
+      "Name": "Bleating Goat",
+      "labeled_at": "2025-11-05T01:06:11.748Z"
+    },
+    {
+      "file": "wc2_sfx/285.wav",
+      "category": "environment",
+      "Name": "Goat",
+      "labeled_at": "2025-11-05T01:06:17.322Z"
+    },
+    {
+      "file": "wc2_sfx/286.wav",
+      "category": "environment",
+      "Name": "Seal",
+      "labeled_at": "2025-11-05T01:06:21.535Z"
+    },
+    {
+      "file": "wc2_sfx/287.wav",
+      "category": "environment",
+      "Name": "Dying seal",
+      "labeled_at": "2025-11-05T01:06:25.870Z"
+    },
+    {
+      "file": "wc2_sfx/288.wav",
+      "category": "environment",
+      "Name": "Pig",
+      "labeled_at": "2025-11-05T01:06:30.875Z"
+    },
+    {
+      "file": "wc2_sfx/289.wav",
+      "category": "environment",
+      "Name": "Dying pig",
+      "labeled_at": "2025-11-05T01:06:35.011Z"
+    },
+    {
+      "file": "wc2_sfx/290.wav",
+      "category": "environment",
+      "Name": "Siege movement",
+      "labeled_at": "2025-11-05T01:06:42.807Z"
+    },
+    {
+      "file": "wc2_midi/music_00.xmi",
+      "category": "ui",
+      "labeled_at": "2025-11-05T01:07:59.234Z"
+    },
+    {
+      "file": "wc2_midi/music_01.xmi",
+      "category": "ui",
+      "labeled_at": "2025-11-05T01:08:19.372Z"
+    },
+    {
+      "file": "WC202.wav",
+      "category": "music",
+      "labeled_at": "2025-11-05T01:07:26.959Z"
+    }
+  ],
+  "templates": {
+    "story": [
+      "label"
+    ],
+    "ui": [],
+    "environment": [
+      "Name"
+    ],
+    "unit": [
+      "Name",
+      "Unit Type",
+      "Speech Type"
+    ],
+    "music": [
+      "Menu"
+    ]
+  },
+  "fieldValueHistory": {
+    "label": [
+      {
+        "value": "quiet_settles",
+        "faction": "alliance"
+      },
+      {
+        "value": "lorderon_victory",
+        "faction": "horde"
+      },
+      {
+        "value": "regional_defense",
+        "faction": "alliance"
+      },
+      {
+        "value": "outpost_food",
+        "faction": "alliance"
+      },
+      {
+        "value": "elves_of_silvermoon",
+        "faction": "alliance"
+      },
+      {
+        "value": "lord_terranus",
+        "faction": "alliance"
+      },
+      {
+        "value": "safe_return_of_elves",
+        "faction": "alliance"
+      },
+      {
+        "value": "culteras_lorderon_fleet",
+        "faction": "alliance"
+      },
+      {
+        "value": "display_of_naval_power",
+        "faction": "alliance"
+      },
+      {
+        "value": "lorderon_artificers",
+        "faction": "alliance"
+      },
+      {
+        "value": "horde_driven_from_shores",
+        "faction": "alliance"
+      },
+      {
+        "value": "orchish_outpost_dwarves",
+        "faction": "alliance"
+      },
+      {
+        "value": "orcs_defeat_dun_algaz",
+        "faction": "alliance"
+      },
+      {
+        "value": "advanced_scouts_grim_batol",
+        "faction": "alliance"
+      },
+      {
+        "value": "lothar_khaz_modan",
+        "faction": "alliance"
+      },
+      {
+        "value": "orcs_withdraw_from_khaz_modan",
+        "faction": "alliance"
+      },
+      {
+        "value": "tiers_hand",
+        "faction": "alliance"
+      },
+      {
+        "value": "uther_lightbringer",
+        "faction": "alliance"
+      },
+      {
+        "value": "alteraac_soldiers_captured",
+        "faction": "alliance"
+      },
+      {
+        "value": "lothar_alliance_betrayal",
+        "faction": "alliance"
+      },
+      {
+        "value": "treason_alteraac",
+        "faction": "alliance"
+      },
+      {
+        "value": "destroyed_alteraac",
+        "faction": null
+      },
+      {
+        "value": "horde_reaches_azeroth",
+        "faction": "alliance"
+      },
+      {
+        "value": "blackrock_spire_siege",
+        "faction": "alliance"
+      },
+      {
+        "value": "great_portal_final_assault",
+        "faction": "alliance"
+      },
+      {
+        "value": "assault_on_lorderon",
+        "faction": "horde"
+      },
+      {
+        "value": "humans_capture_zul_jinn",
+        "faction": "horde"
+      },
+      {
+        "value": "prep_for_strike_on_hillsbrad",
+        "faction": "horde"
+      },
+      {
+        "value": "construct_shipyard",
+        "faction": "horde"
+      },
+      {
+        "value": "attack_hillsbrad",
+        "faction": "horde"
+      },
+      {
+        "value": "dwarves_in_khaz_modan",
+        "faction": "horde"
+      },
+      {
+        "value": "cho_ghal",
+        "faction": "horde"
+      },
+      {
+        "value": "cho_gal_refineries",
+        "faction": "horde"
+      },
+      {
+        "value": "stromgard",
+        "faction": "horde"
+      },
+      {
+        "value": "southern_border_quel_thalas",
+        "faction": "horde"
+      },
+      {
+        "value": "captured_elven_runestone",
+        "faction": "horde"
+      },
+      {
+        "value": "stratholme",
+        "faction": "horde"
+      },
+      {
+        "value": "unleash_death_knights",
+        "faction": "horde"
+      },
+      {
+        "value": "death_knights_necromancy",
+        "faction": "horde"
+      },
+      {
+        "value": "northlands_have_fallen",
+        "faction": "horde"
+      },
+      {
+        "value": "gul_dan_betrayal",
+        "faction": "horde"
+      },
+      {
+        "value": "hour_of_judgement",
+        "faction": "horde"
+      },
+      {
+        "value": "dragons",
+        "faction": "horde"
+      },
+      {
+        "value": "attack_on_lorderon",
+        "faction": "horde"
+      },
+      {
+        "value": "destroyed_alteraac",
+        "faction": "alliance"
+      }
+    ],
+    "Name": [
+      {
+        "value": "Beep",
+        "faction": null
+      },
+      {
+        "value": "Door Close",
+        "faction": null
+      },
+      {
+        "value": "Building Sounds",
+        "faction": null
+      },
+      {
+        "value": "Your Command",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ee-tok",
+        "faction": "horde"
+      },
+      {
+        "value": "Your orders",
+        "faction": "alliance"
+      },
+      {
+        "value": "Zug Tug",
+        "faction": "horde"
+      },
+      {
+        "value": "Yes Sire",
+        "faction": "alliance"
+      },
+      {
+        "value": "Kloo Dook",
+        "faction": null
+      },
+      {
+        "value": "yes",
+        "faction": null
+      },
+      {
+        "value": "At your service",
+        "faction": "alliance"
+      },
+      {
+        "value": "Hurr",
+        "faction": "horde"
+      },
+      {
+        "value": "Make up your mind",
+        "faction": "alliance"
+      },
+      {
+        "value": "Whaaaat",
+        "faction": "horde"
+      },
+      {
+        "value": "Are you still touching me",
+        "faction": "alliance"
+      },
+      {
+        "value": "Look out",
+        "faction": "horde"
+      },
+      {
+        "value": "don't you have a kingdom to run",
+        "faction": "alliance"
+      },
+      {
+        "value": "missed me",
+        "faction": "horde"
+      },
+      {
+        "value": "I do have work to do",
+        "faction": "alliance"
+      },
+      {
+        "value": "that tickles",
+        "faction": "horde"
+      },
+      {
+        "value": "Knight",
+        "faction": "alliance"
+      },
+      {
+        "value": "I would not do such things",
+        "faction": "horde"
+      },
+      {
+        "value": "See the world, they said",
+        "faction": "alliance"
+      },
+      {
+        "value": "My tummy feels funny",
+        "faction": "horde"
+      },
+      {
+        "value": "I'd rather be sailing",
+        "faction": "alliance"
+      },
+      {
+        "value": "burp",
+        "faction": "horde"
+      },
+      {
+        "value": "Cannon Ball Hit",
+        "faction": null
+      },
+      {
+        "value": "Yes",
+        "faction": "alliance"
+      },
+      {
+        "value": "Zug zug",
+        "faction": "horde"
+      },
+      {
+        "value": "Yes my lord",
+        "faction": "alliance"
+      },
+      {
+        "value": "Daboo",
+        "faction": "horde"
+      },
+      {
+        "value": "As you wish",
+        "faction": "alliance"
+      },
+      {
+        "value": "glok tar",
+        "faction": "horde"
+      },
+      {
+        "value": "At once sire",
+        "faction": "alliance"
+      },
+      {
+        "value": "Swovoo",
+        "faction": "horde"
+      },
+      {
+        "value": "Work completed",
+        "faction": "alliance"
+      },
+      {
+        "value": "Work complete",
+        "faction": "horde"
+      },
+      {
+        "value": "Job's done",
+        "faction": "alliance"
+      },
+      {
+        "value": "Awaiting orders",
+        "faction": "alliance"
+      },
+      {
+        "value": "Your Command Master",
+        "faction": "horde"
+      },
+      {
+        "value": "We are under attack",
+        "faction": "alliance"
+      },
+      {
+        "value": "We're being attack",
+        "faction": "horde"
+      },
+      {
+        "value": "Town is under attack",
+        "faction": "alliance"
+      },
+      {
+        "value": "They're destroying our city",
+        "faction": "horde"
+      },
+      {
+        "value": "Death noise",
+        "faction": "alliance"
+      },
+      {
+        "value": "Death noise",
+        "faction": "horde"
+      },
+      {
+        "value": "oil bubbles",
+        "faction": null
+      },
+      {
+        "value": "building destroyed",
+        "faction": null
+      },
+      {
+        "value": "building destroyed",
+        "faction": null
+      },
+      {
+        "value": "building destroyed",
+        "faction": null
+      },
+      {
+        "value": "large projectile launch",
+        "faction": null
+      },
+      {
+        "value": "wood chop",
+        "faction": null
+      },
+      {
+        "value": "wood chop",
+        "faction": null
+      },
+      {
+        "value": "wood chop",
+        "faction": null
+      },
+      {
+        "value": "wood chop",
+        "faction": null
+      },
+      {
+        "value": "sword clank",
+        "faction": null
+      },
+      {
+        "value": "sword clank",
+        "faction": null
+      },
+      {
+        "value": "sword clank",
+        "faction": null
+      },
+      {
+        "value": "hit",
+        "faction": null
+      },
+      {
+        "value": "hit",
+        "faction": null
+      },
+      {
+        "value": "flap",
+        "faction": null
+      },
+      {
+        "value": "arrow release",
+        "faction": null
+      },
+      {
+        "value": "arrow hit",
+        "faction": null
+      },
+      {
+        "value": "magic",
+        "faction": null
+      },
+      {
+        "value": "blacksmith",
+        "faction": null
+      },
+      {
+        "value": "church",
+        "faction": null
+      },
+      {
+        "value": "ogre mound",
+        "faction": null
+      },
+      {
+        "value": "horse whinnie",
+        "faction": null
+      },
+      {
+        "value": "ogre mound",
+        "faction": null
+      },
+      {
+        "value": "human farm sound",
+        "faction": null
+      },
+      {
+        "value": "horde farm sound",
+        "faction": null
+      },
+      {
+        "value": "blacksmith",
+        "faction": null
+      },
+      {
+        "value": "troll axe throw",
+        "faction": null
+      },
+      {
+        "value": "oil rig horn",
+        "faction": null
+      },
+      {
+        "value": "hit",
+        "faction": null
+      },
+      {
+        "value": "boat bell",
+        "faction": null
+      },
+      {
+        "value": "hit",
+        "faction": null
+      },
+      {
+        "value": "oil gloop",
+        "faction": null
+      },
+      {
+        "value": "oil processing",
+        "faction": null
+      },
+      {
+        "value": "lumber mill",
+        "faction": null
+      },
+      {
+        "value": "ship sails noise",
+        "faction": null
+      },
+      {
+        "value": "fire",
+        "faction": null
+      },
+      {
+        "value": "gryphon",
+        "faction": null
+      },
+      {
+        "value": "dragon",
+        "faction": null
+      },
+      {
+        "value": "forge / foundary",
+        "faction": null
+      },
+      {
+        "value": "gnomish research",
+        "faction": null
+      },
+      {
+        "value": "firey gloop",
+        "faction": null
+      },
+      {
+        "value": "mage tower",
+        "faction": null
+      },
+      {
+        "value": "death knight altar",
+        "faction": null
+      },
+      {
+        "value": "Capture noise",
+        "faction": null
+      },
+      {
+        "value": "alliance capture noise",
+        "faction": null
+      },
+      {
+        "value": "horde capture noise",
+        "faction": null
+      },
+      {
+        "value": "alliance victory",
+        "faction": null
+      },
+      {
+        "value": "horde victory",
+        "faction": null
+      },
+      {
+        "value": "Ogre Bloodrage",
+        "faction": "horde"
+      },
+      {
+        "value": "Sizzling",
+        "faction": null
+      },
+      {
+        "value": "Death coil spell",
+        "faction": null
+      },
+      {
+        "value": "Exorcism spell",
+        "faction": null
+      },
+      {
+        "value": "Flame spell",
+        "faction": null
+      },
+      {
+        "value": "Haste spell",
+        "faction": null
+      },
+      {
+        "value": "Heal spell",
+        "faction": null
+      },
+      {
+        "value": "Reveal map spell",
+        "faction": null
+      },
+      {
+        "value": "Blizzard spell",
+        "faction": null
+      },
+      {
+        "value": "Invisibility spell",
+        "faction": null
+      },
+      {
+        "value": "Ahhhh",
+        "faction": "horde"
+      },
+      {
+        "value": "Polymorph",
+        "faction": null
+      },
+      {
+        "value": "Slow spell",
+        "faction": null
+      },
+      {
+        "value": "Lightning spell",
+        "faction": null
+      },
+      {
+        "value": "Death Knight Attack",
+        "faction": null
+      },
+      {
+        "value": "Sword Clank",
+        "faction": null
+      },
+      {
+        "value": "Blizzard spell",
+        "faction": null
+      },
+      {
+        "value": "ready to work",
+        "faction": "horde"
+      },
+      {
+        "value": "I'm growing impatient",
+        "faction": "horde"
+      },
+      {
+        "value": "Don't Push It",
+        "faction": "horde"
+      },
+      {
+        "value": "When my work is finished I'm coming back for you",
+        "faction": "horde"
+      },
+      {
+        "value": "I'm alive",
+        "faction": null
+      },
+      {
+        "value": "Yes",
+        "faction": "horde"
+      },
+      {
+        "value": "Make it quick",
+        "faction": "horde"
+      },
+      {
+        "value": "Of course, master",
+        "faction": "horde"
+      },
+      {
+        "value": "Very well",
+        "faction": "horde"
+      },
+      {
+        "value": "Grunt",
+        "faction": "horde"
+      },
+      {
+        "value": "I love blowing things up",
+        "faction": "alliance"
+      },
+      {
+        "value": "Bombs are great",
+        "faction": "alliance"
+      },
+      {
+        "value": "Tilt one back with me dog",
+        "faction": "alliance"
+      },
+      {
+        "value": "Dwarves ready",
+        "faction": "alliance"
+      },
+      {
+        "value": "What do you want",
+        "faction": "alliance"
+      },
+      {
+        "value": "Auch",
+        "faction": "alliance"
+      },
+      {
+        "value": "Aie laddie",
+        "faction": "alliance"
+      },
+      {
+        "value": "OK",
+        "faction": "alliance"
+      },
+      {
+        "value": "Alright",
+        "faction": null
+      },
+      {
+        "value": "Move Out",
+        "faction": "alliance"
+      },
+      {
+        "value": "Yes Sir",
+        "faction": "alliance"
+      },
+      {
+        "value": "Elven Archer",
+        "faction": "alliance"
+      },
+      {
+        "value": "We must take action",
+        "faction": "alliance"
+      },
+      {
+        "value": "Time is of the essence",
+        "faction": "alliance"
+      },
+      {
+        "value": "Even elder races get tired of waiting",
+        "faction": "alliance"
+      },
+      {
+        "value": "I come to serve",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ur Ur Ur",
+        "faction": "horde"
+      },
+      {
+        "value": "My Lord",
+        "faction": null
+      },
+      {
+        "value": "Urrrr",
+        "faction": "horde"
+      },
+      {
+        "value": "Your eminence",
+        "faction": "alliance"
+      },
+      {
+        "value": "exalted one",
+        "faction": "alliance"
+      },
+      {
+        "value": "my sovereign",
+        "faction": "alliance"
+      },
+      {
+        "value": "Your wish",
+        "faction": "alliance"
+      },
+      {
+        "value": "By your command",
+        "faction": "alliance"
+      },
+      {
+        "value": "for the alliance",
+        "faction": "alliance"
+      },
+      {
+        "value": "move out",
+        "faction": "alliance"
+      },
+      {
+        "value": "Gnomish Flying Machine",
+        "faction": "alliance"
+      },
+      {
+        "value": "Want me to fly?",
+        "faction": "alliance"
+      },
+      {
+        "value": "Hello, Sonny",
+        "faction": "alliance"
+      },
+      {
+        "value": "Are you listening",
+        "faction": "alliance"
+      },
+      {
+        "value": "I'm flying",
+        "faction": "alliance"
+      },
+      {
+        "value": "Goodbye",
+        "faction": "alliance"
+      },
+      {
+        "value": "I've got a flying machine",
+        "faction": "alliance"
+      },
+      {
+        "value": "flying noise",
+        "faction": "alliance"
+      },
+      {
+        "value": "We've got explosives",
+        "faction": "horde"
+      },
+      {
+        "value": "Kaboom",
+        "faction": "horde"
+      },
+      {
+        "value": "Aw it's beau-tee-ful",
+        "faction": "horde"
+      },
+      {
+        "value": "We're ready",
+        "faction": "horde"
+      },
+      {
+        "value": "What",
+        "faction": "horde"
+      },
+      {
+        "value": "Who is it",
+        "faction": "horde"
+      },
+      {
+        "value": "Hello",
+        "faction": "horde"
+      },
+      {
+        "value": "Okay",
+        "faction": "horde"
+      },
+      {
+        "value": "Certainly",
+        "faction": "horde"
+      },
+      {
+        "value": "Yes, boss",
+        "faction": "horde"
+      },
+      {
+        "value": "alright",
+        "faction": "horde"
+      },
+      {
+        "value": "Goblin Zepplin",
+        "faction": "horde"
+      },
+      {
+        "value": "I wish I had a weapon",
+        "faction": "horde"
+      },
+      {
+        "value": "I can see my house",
+        "faction": "horde"
+      },
+      {
+        "value": "Here I am",
+        "faction": "horde"
+      },
+      {
+        "value": "Movement",
+        "faction": "horde"
+      },
+      {
+        "value": "I need orders",
+        "faction": "alliance"
+      },
+      {
+        "value": "Kloo Dook",
+        "faction": "horde"
+      },
+      {
+        "value": "yes",
+        "faction": "alliance"
+      },
+      {
+        "value": "My Lord",
+        "faction": null
+      },
+      {
+        "value": "oil bubbles",
+        "faction": null
+      },
+      {
+        "value": "building destroyed",
+        "faction": null
+      },
+      {
+        "value": "building destroyed",
+        "faction": null
+      },
+      {
+        "value": "building destroyed",
+        "faction": null
+      },
+      {
+        "value": "large projectile launch",
+        "faction": null
+      },
+      {
+        "value": "wood chop",
+        "faction": null
+      },
+      {
+        "value": "wood chop",
+        "faction": null
+      },
+      {
+        "value": "I'm alive",
+        "faction": "horde"
+      },
+      {
+        "value": "Alright",
+        "faction": "alliance"
+      },
+      {
+        "value": "Give me a quest",
+        "faction": "alliance"
+      },
+      {
+        "value": "Don't force me to run you through",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ready to serve my lord",
+        "faction": "alliance"
+      },
+      {
+        "value": "Your majesty",
+        "faction": "alliance"
+      },
+      {
+        "value": "Sire",
+        "faction": "alliance"
+      },
+      {
+        "value": "What ho",
+        "faction": "alliance"
+      },
+      {
+        "value": "We move",
+        "faction": "alliance"
+      },
+      {
+        "value": "In your name",
+        "faction": "alliance"
+      },
+      {
+        "value": "For the king",
+        "faction": "alliance"
+      },
+      {
+        "value": "Defending your honor",
+        "faction": "alliance"
+      },
+      {
+        "value": "Your majesty?",
+        "faction": "alliance"
+      },
+      {
+        "value": "in your name",
+        "faction": "alliance"
+      },
+      {
+        "value": "for the king",
+        "faction": "alliance"
+      },
+      {
+        "value": "defending your honor",
+        "faction": "alliance"
+      },
+      {
+        "value": "Yes master / I don't want to",
+        "faction": "horde"
+      },
+      {
+        "value": "Alright / now I'm hungry",
+        "faction": "horde"
+      },
+      {
+        "value": "This way / no that way",
+        "faction": "horde"
+      },
+      {
+        "value": "burp / he did it",
+        "faction": "horde"
+      },
+      {
+        "value": "fart",
+        "faction": "horde"
+      },
+      {
+        "value": "Ready Master / Not Ready",
+        "faction": "horde"
+      },
+      {
+        "value": "Huh / What",
+        "faction": "horde"
+      },
+      {
+        "value": "What / Huh",
+        "faction": "horde"
+      },
+      {
+        "value": "Master",
+        "faction": "horde"
+      },
+      {
+        "value": "OK",
+        "faction": "horde"
+      },
+      {
+        "value": "Yes Master",
+        "faction": "horde"
+      },
+      {
+        "value": "Alright",
+        "faction": "horde"
+      },
+      {
+        "value": "Burp / we did it",
+        "faction": "horde"
+      },
+      {
+        "value": "We're not brainless anymore",
+        "faction": "horde"
+      },
+      {
+        "value": "I've got the brain / huh uh",
+        "faction": "horde"
+      },
+      {
+        "value": "We're ready master",
+        "faction": "horde"
+      },
+      {
+        "value": "What?",
+        "faction": "horde"
+      },
+      {
+        "value": "What is it",
+        "faction": "horde"
+      },
+      {
+        "value": "Yes master",
+        "faction": "horde"
+      },
+      {
+        "value": "Of course",
+        "faction": "horde"
+      },
+      {
+        "value": "Right away",
+        "faction": "horde"
+      },
+      {
+        "value": "Stop rocking the boat",
+        "faction": "alliance"
+      },
+      {
+        "value": "Yo Ho",
+        "faction": "horde"
+      },
+      {
+        "value": "You're making me sea-sick",
+        "faction": "alliance"
+      },
+      {
+        "value": "Who wants to sing",
+        "faction": "horde"
+      },
+      {
+        "value": "Barf",
+        "faction": "alliance"
+      },
+      {
+        "value": "Daboo sing",
+        "faction": "horde"
+      },
+      {
+        "value": "Captain on the bridge",
+        "faction": "alliance"
+      },
+      {
+        "value": "Done building ship",
+        "faction": "horde"
+      },
+      {
+        "value": "Aye captain",
+        "faction": "alliance"
+      },
+      {
+        "value": "Arg",
+        "faction": "horde"
+      },
+      {
+        "value": "Skipper",
+        "faction": "alliance"
+      },
+      {
+        "value": "Aye matey",
+        "faction": "horde"
+      },
+      {
+        "value": "Set sail",
+        "faction": "alliance"
+      },
+      {
+        "value": "Yes captain",
+        "faction": "horde"
+      },
+      {
+        "value": "Aye Aye sir",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ahoy",
+        "faction": "horde"
+      },
+      {
+        "value": "Aye Captain",
+        "faction": "alliance"
+      },
+      {
+        "value": "I would love to",
+        "faction": "horde"
+      },
+      {
+        "value": "Underway",
+        "faction": "alliance"
+      },
+      {
+        "value": "You're the captain",
+        "faction": "horde"
+      },
+      {
+        "value": "Gurgling",
+        "faction": "alliance"
+      },
+      {
+        "value": "Gurgle 2",
+        "faction": "alliance"
+      },
+      {
+        "value": "Gurgle",
+        "faction": "alliance"
+      },
+      {
+        "value": "I got axe for you",
+        "faction": "horde"
+      },
+      {
+        "value": "gibberish",
+        "faction": "horde"
+      },
+      {
+        "value": "Say hello to my little friend",
+        "faction": "horde"
+      },
+      {
+        "value": "New Troll Here",
+        "faction": "horde"
+      },
+      {
+        "value": "You Call Me",
+        "faction": "horde"
+      },
+      {
+        "value": "Troll attacks",
+        "faction": "horde"
+      },
+      {
+        "value": "Who'd you wanna kill",
+        "faction": "horde"
+      },
+      {
+        "value": "You da boss",
+        "faction": "horde"
+      },
+      {
+        "value": "I'm a busy man",
+        "faction": "alliance"
+      },
+      {
+        "value": "Don't anger me",
+        "faction": "alliance"
+      },
+      {
+        "value": "I warned you",
+        "faction": "alliance"
+      },
+      {
+        "value": "Who summoned me",
+        "faction": "alliance"
+      },
+      {
+        "value": "What is it",
+        "faction": "alliance"
+      },
+      {
+        "value": "Do you need assistance",
+        "faction": "alliance"
+      },
+      {
+        "value": "Your request?",
+        "faction": "alliance"
+      },
+      {
+        "value": "Very well",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ready to serve",
+        "faction": "alliance"
+      },
+      {
+        "value": "Oh what",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ye uh huh",
+        "faction": "alliance"
+      },
+      {
+        "value": "Now what",
+        "faction": "alliance"
+      },
+      {
+        "value": "More work",
+        "faction": "alliance"
+      },
+      {
+        "value": "Leave me alone",
+        "faction": "alliance"
+      },
+      {
+        "value": "I don't want to do this",
+        "faction": "alliance"
+      },
+      {
+        "value": "I'm not listening",
+        "faction": "alliance"
+      },
+      {
+        "value": "Milord",
+        "faction": "alliance"
+      },
+      {
+        "value": "Hello",
+        "faction": "alliance"
+      },
+      {
+        "value": "okay",
+        "faction": "alliance"
+      },
+      {
+        "value": "Righto",
+        "faction": "alliance"
+      },
+      {
+        "value": "Yesh milord",
+        "faction": "alliance"
+      },
+      {
+        "value": "Screech",
+        "faction": "horde"
+      },
+      {
+        "value": "Screench",
+        "faction": "horde"
+      },
+      {
+        "value": "Wings flapping",
+        "faction": "alliance"
+      },
+      {
+        "value": "Wings flapping",
+        "faction": "horde"
+      },
+      {
+        "value": "Caw",
+        "faction": "alliance"
+      },
+      {
+        "value": "Bleating Goat",
+        "faction": null
+      },
+      {
+        "value": "Goat",
+        "faction": null
+      },
+      {
+        "value": "Seal",
+        "faction": null
+      },
+      {
+        "value": "Dying seal",
+        "faction": null
+      },
+      {
+        "value": "Pig",
+        "faction": null
+      },
+      {
+        "value": "Dying pig",
+        "faction": null
+      },
+      {
+        "value": "Siege movement",
+        "faction": null
+      },
+      {
+        "value": "empty",
+        "faction": null
+      },
+      {
+        "value": "empty",
+        "faction": null
+      }
+    ],
+    "Unit Type": [
+      {
+        "value": "Knight",
+        "faction": "alliance"
+      },
+      {
+        "value": "Peon",
+        "faction": "horde"
+      },
+      {
+        "value": "Peon",
+        "faction": null
+      },
+      {
+        "value": "Knight",
+        "faction": null
+      },
+      {
+        "value": "Knight",
+        "faction": null
+      },
+      {
+        "value": "Death Knight",
+        "faction": "horde"
+      },
+      {
+        "value": "Death Knight",
+        "faction": null
+      },
+      {
+        "value": "Dwarvish Demo Squad",
+        "faction": "alliance"
+      },
+      {
+        "value": "Dwarvish Demo Squad",
+        "faction": null
+      },
+      {
+        "value": "Elven Archer",
+        "faction": "alliance"
+      },
+      {
+        "value": "Orgre",
+        "faction": "horde"
+      },
+      {
+        "value": "Grunt",
+        "faction": "horde"
+      },
+      {
+        "value": "Peasant",
+        "faction": "alliance"
+      },
+      {
+        "value": "Knight",
+        "faction": null
+      },
+      {
+        "value": "Gnomish Flying Machine",
+        "faction": "alliance"
+      },
+      {
+        "value": "Goblin Demolition Crew",
+        "faction": "horde"
+      },
+      {
+        "value": "Goblin Zeppelin",
+        "faction": "horde"
+      },
+      {
+        "value": "Footman",
+        "faction": "alliance"
+      },
+      {
+        "value": "Footman",
+        "faction": null
+      },
+      {
+        "value": "Palidin",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ship",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ship",
+        "faction": "horde"
+      },
+      {
+        "value": "Gnomish Submarine",
+        "faction": "alliance"
+      },
+      {
+        "value": "Troll Axe Thrower",
+        "faction": "horde"
+      },
+      {
+        "value": "Mage",
+        "faction": "alliance"
+      },
+      {
+        "value": "Dragon",
+        "faction": "horde"
+      },
+      {
+        "value": "Gryphon Rider",
+        "faction": "alliance"
+      }
+    ],
+    "Speech Type": [
+      {
+        "value": "Greeting",
+        "faction": "alliance"
+      },
+      {
+        "value": "Acknowledge",
+        "faction": "horde"
+      },
+      {
+        "value": "Acknowledge",
+        "faction": null
+      },
+      {
+        "value": "Greeting",
+        "faction": null
+      },
+      {
+        "value": "Greeting",
+        "faction": null
+      },
+      {
+        "value": "Greeting",
+        "faction": "horde"
+      },
+      {
+        "value": "Annoyed",
+        "faction": "alliance"
+      },
+      {
+        "value": "Annoyed",
+        "faction": "horde"
+      },
+      {
+        "value": "Silly",
+        "faction": "horde"
+      },
+      {
+        "value": "Acknowledge",
+        "faction": "alliance"
+      },
+      {
+        "value": "Complete",
+        "faction": "alliance"
+      },
+      {
+        "value": "Complete",
+        "faction": "horde"
+      },
+      {
+        "value": "Ready",
+        "faction": "alliance"
+      },
+      {
+        "value": "Ready",
+        "faction": "horde"
+      },
+      {
+        "value": "Alert",
+        "faction": "alliance"
+      },
+      {
+        "value": "Alert",
+        "faction": "horde"
+      },
+      {
+        "value": "Death",
+        "faction": "alliance"
+      },
+      {
+        "value": "Death",
+        "faction": "horde"
+      },
+      {
+        "value": "Effect",
+        "faction": "horde"
+      },
+      {
+        "value": "Ready",
+        "faction": null
+      },
+      {
+        "value": "Acknowledge",
+        "faction": null
+      },
+      {
+        "value": "Greeting",
+        "faction": null
+      },
+      {
+        "value": "Greeting",
+        "faction": null
+      },
+      {
+        "value": "Silly",
+        "faction": "alliance"
+      }
+    ]
+  },
+  "currentIndex": 337,
+  "saved_at": "2025-11-05T01:08:19.380Z"
+}
