@@ -3,6 +3,23 @@
 
 set -euo pipefail
 
+# DEBUG
+echo "PostToolUse called at $(date) by PID $$ from PPID $PPID" >> /tmp/wc2-hook-calls.log
+
+# Prevent multiple sounds in quick succession (debounce)
+# Only play if >10 seconds since last play
+LAST_PLAY_FILE="/tmp/wc2-last-play-$PPID"
+CURRENT_TIME=$(date +%s)
+if [[ -f "$LAST_PLAY_FILE" ]]; then
+    LAST_TIME=$(cat "$LAST_PLAY_FILE")
+    TIME_DIFF=$((CURRENT_TIME - LAST_TIME))
+    if [[ $TIME_DIFF -lt 10 ]]; then
+        echo "Debounced (${TIME_DIFF}s since last play)" >> /tmp/wc2-hook-calls.log
+        exit 0
+    fi
+fi
+echo "$CURRENT_TIME" > "$LAST_PLAY_FILE"
+
 # Resolve symlink to get real script location
 SCRIPT_PATH="${BASH_SOURCE[0]}"
 if [[ -L "$SCRIPT_PATH" ]]; then
