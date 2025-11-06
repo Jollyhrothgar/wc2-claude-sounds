@@ -4,6 +4,9 @@
 
 set -euo pipefail
 
+# DEBUG
+echo "SessionStart called at $(date) by PID $$ from PPID $PPID" >> /tmp/wc2-hook-calls.log
+
 # Resolve symlink to get real script location
 SCRIPT_PATH="${BASH_SOURCE[0]}"
 if [[ -L "$SCRIPT_PATH" ]]; then
@@ -12,25 +15,17 @@ fi
 SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 
-# Select a character for this session
-WC2_CHARACTER=$("$REPO_ROOT/scripts/select_character.sh")
-
-if [[ -z "$WC2_CHARACTER" ]]; then
-    exit 0
-fi
-
-# Export character for this session (will be inherited by hook scripts)
+# Select a character for this session and save to session file
+# Use PPID (parent process, Claude Code) for session consistency
+SESSION_FILE="/tmp/wc2-character-$PPID"
+WC2_CHARACTER=$("$REPO_ROOT/scripts/select_character.sh" 2>/dev/null || echo "Peasant")
+echo "$WC2_CHARACTER" > "$SESSION_FILE"
 export WC2_CHARACTER
 
-# Play greeting sound
-"$REPO_ROOT/scripts/play_sound.sh" "Greeting" &
+echo "Selected character: $WC2_CHARACTER" >> /tmp/wc2-hook-calls.log
 
-# Output JSON to set environment variable for the session
-# This makes WC2_CHARACTER available to all subsequent hooks
-cat <<EOF
-{
-  "env": {
-    "WC2_CHARACTER": "$WC2_CHARACTER"
-  }
-}
-EOF
+# Play greeting sound in background to avoid blocking
+"$REPO_ROOT/scripts/play_sound.sh" "Greeting" >> /tmp/wc2-hook-calls.log 2>&1 &
+echo "Greeting sound started in background (PID $!)" >> /tmp/wc2-hook-calls.log
+
+exit 0
