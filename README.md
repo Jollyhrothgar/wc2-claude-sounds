@@ -22,7 +22,9 @@ cd ~/workspace/wc2-claude-sounds
 ./install.sh
 ```
 
-This creates symlinks in `~/.config/claude/hooks/` pointing to the hook scripts in this repo.
+This registers the hooks in `~/.claude/settings.json`.
+
+**Important**: Restart Claude Code after installation for hooks to take effect (Claude captures hooks at startup).
 
 ## Configuration
 
@@ -156,7 +158,9 @@ cd ~/workspace/wc2-claude-sounds
 ./uninstall.sh
 ```
 
-This removes the symlinks from `~/.config/claude/hooks/` and optionally cleans up the lock directory.
+This removes the hooks from `~/.claude/settings.json` and optionally cleans up the lock directory.
+
+**Important**: Restart Claude Code after uninstallation for changes to take effect.
 
 ## Troubleshooting
 

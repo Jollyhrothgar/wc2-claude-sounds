@@ -4,33 +4,64 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-CLAUDE_HOOKS_DIR="${HOME}/.config/claude/hooks"
+SETTINGS_FILE="${HOME}/.claude/settings.json"
 CONFIG_FILE="$SCRIPT_DIR/config.yaml"
 
 echo "Uninstalling Warcraft II Claude Code sound hooks..."
 
-# Define hook names
-HOOK_NAMES=("SessionStart" "PreToolUse" "PostToolUse" "Notification" "SessionEnd")
+# Check if settings.json exists
+if [[ ! -f "$SETTINGS_FILE" ]]; then
+    echo "  ⚠ $SETTINGS_FILE not found, nothing to uninstall"
+    exit 0
+fi
 
-# Remove hooks
-for hook_name in "${HOOK_NAMES[@]}"; do
-    target_path="$CLAUDE_HOOKS_DIR/$hook_name"
+# Check if jq is available
+if ! command -v jq &> /dev/null; then
+    echo "ERROR: jq is required but not installed"
+    echo "Install with: brew install jq"
+    exit 1
+fi
 
-    if [[ -L "$target_path" ]]; then
-        # It's a symlink - check if it points to our repo
-        link_target=$(readlink "$target_path")
-        if [[ "$link_target" == "$SCRIPT_DIR"/hooks/* ]]; then
-            rm "$target_path"
-            echo "  ✓ Removed $hook_name"
-        else
-            echo "  ⚠ $hook_name is a symlink but doesn't point to this repo, skipping"
-        fi
-    elif [[ -e "$target_path" ]]; then
-        echo "  ⚠ $hook_name exists but is not a symlink, skipping"
-    else
-        echo "  - $hook_name not installed"
-    fi
-done
+# Backup settings
+cp "$SETTINGS_FILE" "${SETTINGS_FILE}.backup"
+echo "  ✓ Backed up settings to ${SETTINGS_FILE}.backup"
+
+# Remove WC2 hooks from settings
+NEW_SETTINGS=$(cat "$SETTINGS_FILE" | jq --arg script_dir "$SCRIPT_DIR" '
+  # Remove SessionStart if it matches our hook
+  if .hooks.SessionStart then
+    .hooks.SessionStart = [.hooks.SessionStart[] | select(.hooks[0].command != ($script_dir + "/hooks/session-start.sh"))]
+    | if .hooks.SessionStart == [] then del(.hooks.SessionStart) else . end
+  else . end |
+
+  # Remove PreToolUse if it matches our hook
+  if .hooks.PreToolUse then
+    .hooks.PreToolUse = [.hooks.PreToolUse[] | select(.hooks[0].command != ($script_dir + "/hooks/pre-tool-use.sh"))]
+    | if .hooks.PreToolUse == [] then del(.hooks.PreToolUse) else . end
+  else . end |
+
+  # Remove PostToolUse if it matches our hook
+  if .hooks.PostToolUse then
+    .hooks.PostToolUse = [.hooks.PostToolUse[] | select(.hooks[0].command != ($script_dir + "/hooks/post-tool-use.sh"))]
+    | if .hooks.PostToolUse == [] then del(.hooks.PostToolUse) else . end
+  else . end |
+
+  # Remove our notification hook (but keep others)
+  if .hooks.Notification then
+    .hooks.Notification[0].hooks = [.hooks.Notification[0].hooks[] | select(.command != ($script_dir + "/hooks/notification.sh"))]
+    | if .hooks.Notification[0].hooks == [] then del(.hooks.Notification) else . end
+  else . end |
+
+  # Remove SessionEnd if it matches our hook
+  if .hooks.SessionEnd then
+    .hooks.SessionEnd = [.hooks.SessionEnd[] | select(.hooks[0].command != ($script_dir + "/hooks/session-end.sh"))]
+    | if .hooks.SessionEnd == [] then del(.hooks.SessionEnd) else . end
+  else . end
+')
+
+# Write new settings
+echo "$NEW_SETTINGS" > "$SETTINGS_FILE"
+echo "  ✓ Removed WC2 hooks from $SETTINGS_FILE"
 
 # Clean up lock directory
 LOCK_DIR=$(grep -A1 "lock_dir:" "$CONFIG_FILE" | tail -1 | sed 's/.*: //' | tr -d '"' | xargs)
@@ -44,5 +75,22 @@ if [[ -d "$LOCK_DIR" ]]; then
     fi
 fi
 
+# Clean up old symlinks if they exist
+CLAUDE_HOOKS_DIR="${HOME}/.config/claude/hooks"
+if [[ -d "$CLAUDE_HOOKS_DIR" ]]; then
+    for hook in SessionStart PreToolUse PostToolUse Notification SessionEnd; do
+        if [[ -L "$CLAUDE_HOOKS_DIR/$hook" ]]; then
+            link_target=$(readlink "$CLAUDE_HOOKS_DIR/$hook")
+            if [[ "$link_target" == "$SCRIPT_DIR"/hooks/* ]]; then
+                rm "$CLAUDE_HOOKS_DIR/$hook"
+                echo "  ✓ Removed old symlink: $hook"
+            fi
+        fi
+    done
+fi
+
 echo ""
 echo "Uninstall complete!"
+echo ""
+echo "⚠️  IMPORTANT: Restart Claude Code for changes to take effect"
+echo ""
