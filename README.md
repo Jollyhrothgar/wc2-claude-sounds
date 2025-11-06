@@ -17,14 +17,24 @@ Bring Warcraft II: Tides of Darkness unit voices to your Claude Code sessions! E
 
 ## Installation
 
+1. **Register hooks**:
 ```bash
 cd ~/workspace/wc2-claude-sounds
 ./install.sh
 ```
 
-This registers the hooks in `~/.claude/settings.json`.
+2. **Add to shell startup** (`~/.zshrc` or `~/.bashrc`):
+```bash
+# Warcraft II Claude Code sounds
+source ~/workspace/wc2-claude-sounds/init.sh
+```
 
-**Important**: Restart Claude Code after installation for hooks to take effect (Claude captures hooks at startup).
+3. **Reload shell**:
+```bash
+exec zsh  # or exec bash
+```
+
+This selects a random WC2 character for each terminal session and registers hooks in `~/.claude/settings.json`.
 
 ## Configuration
 
