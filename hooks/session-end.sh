@@ -12,10 +12,15 @@ SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 CONFIG_FILE="$REPO_ROOT/config.yaml"
 
-# Check if character is set, if not don't clean up
-# (SessionEnd only cleans up locks, so we need a character to have been selected)
+# Get character from session file if not in env
+SESSION_FILE="/tmp/wc2-character-$$"
 if [[ -z "${WC2_CHARACTER:-}" ]]; then
-    exit 0
+    if [[ -f "$SESSION_FILE" ]]; then
+        WC2_CHARACTER=$(cat "$SESSION_FILE")
+    else
+        # No character was ever set, nothing to clean up
+        exit 0
+    fi
 fi
 
 # Get lock directory from config
@@ -29,5 +34,8 @@ if [[ -f "$LOCK_FILE" ]]; then
         rm -f "$LOCK_FILE"
     fi
 fi
+
+# Remove session file
+rm -f "$SESSION_FILE"
 
 exit 0

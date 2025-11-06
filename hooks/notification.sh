@@ -11,9 +11,18 @@ fi
 SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
 REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 
-# Check if character is set, if not select one
+# Get or create character for this session
+SESSION_FILE="/tmp/wc2-character-$$"
 if [[ -z "${WC2_CHARACTER:-}" ]]; then
-    export WC2_CHARACTER=$("$REPO_ROOT/scripts/select_character.sh" 2>/dev/null || echo "Peasant")
+    # Check if we have a session file
+    if [[ -f "$SESSION_FILE" ]]; then
+        WC2_CHARACTER=$(cat "$SESSION_FILE")
+    else
+        # Select new character and save to session file
+        WC2_CHARACTER=$("$REPO_ROOT/scripts/select_character.sh" 2>/dev/null || echo "Peasant")
+        echo "$WC2_CHARACTER" > "$SESSION_FILE"
+    fi
+    export WC2_CHARACTER
 fi
 
 # Play alert sound (with Annoyed as fallback)
