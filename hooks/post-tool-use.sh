@@ -29,7 +29,13 @@ fi
 # NOTE: Claude Code doesn't seem to pass duration info to PostToolUse hooks
 # So we can't filter by min_duration. Just play the sound for all tool completions.
 
-# Play complete sound
-"$REPO_ROOT/scripts/play_sound.sh" "Complete" &
+# Play complete sound with fallbacks (not all characters have "Complete")
+# Try: Complete -> Ready -> Acknowledge -> Greeting
+"$REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" &
+
+# If that didn't find anything, try other fallbacks
+if ! pgrep -P $$ afplay > /dev/null 2>&1; then
+    "$REPO_ROOT/scripts/play_sound.sh" "Acknowledge" "Greeting" &
+fi
 
 exit 0
