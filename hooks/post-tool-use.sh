@@ -31,11 +31,6 @@ fi
 
 # Play complete sound with fallbacks (not all characters have "Complete")
 # Try: Complete -> Ready -> Acknowledge -> Greeting
-"$REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" &
-
-# If that didn't find anything, try other fallbacks
-if ! pgrep -P $$ afplay > /dev/null 2>&1; then
-    "$REPO_ROOT/scripts/play_sound.sh" "Acknowledge" "Greeting" &
-fi
+"$REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" "Acknowledge" "Greeting" &
 
 exit 0

@@ -64,13 +64,12 @@ if [[ -z "${WC2_CHARACTER:-}" ]]; then
     exit 1
 fi
 
-# Get speech type argument
-SPEECH_TYPE="${1:-}"
-FALLBACK_SPEECH_TYPE="${2:-}"
+# Get speech type arguments (can provide multiple as fallbacks)
+SPEECH_TYPES=("$@")
 
-if [[ -z "$SPEECH_TYPE" ]]; then
+if [[ ${#SPEECH_TYPES[@]} -eq 0 ]]; then
     echo "ERROR: Speech type not provided" >&2
-    echo "Usage: $0 <speech_type> [fallback_speech_type]" >&2
+    echo "Usage: $0 <speech_type> [fallback1] [fallback2] ..." >&2
     exit 1
 fi
 
@@ -98,19 +97,16 @@ find_sound() {
     return 1
 }
 
-# Try to find sound with primary speech type
+# Try to find sound, trying each speech type in order
 SOUND_FILE=""
-if SOUND_FILE=$(find_sound "$WC2_CHARACTER" "$SPEECH_TYPE"); then
-    : # Found it
-elif [[ -n "$FALLBACK_SPEECH_TYPE" ]]; then
-    # Try fallback speech type
-    if SOUND_FILE=$(find_sound "$WC2_CHARACTER" "$FALLBACK_SPEECH_TYPE"); then
-        : # Found with fallback
+for speech_type in "${SPEECH_TYPES[@]}"; do
+    if SOUND_FILE=$(find_sound "$WC2_CHARACTER" "$speech_type"); then
+        break
     fi
-fi
+done
 
 if [[ -z "$SOUND_FILE" ]]; then
-    # Silently fail - character might not have this speech type
+    # Silently fail - character doesn't have any of these speech types
     exit 0
 fi
 
