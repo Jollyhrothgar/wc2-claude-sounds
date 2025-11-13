@@ -9,9 +9,10 @@ Bring Warcraft II: Tides of Darkness unit voices to your Claude Code sessions! E
 - **Multi-Window Lock System**: Different terminal windows get different characters (no duplicates)
 - **Event-Based Sounds**:
   - **Session Start**: Greeting sound (e.g., "Yes, m'lord?")
-  - **Task Start**: Acknowledgment sound (e.g., "Yes?", "Ready!")
+  - **User Input**: Acknowledgment when you submit a message (e.g., "Yes?", "Okay")
+  - **Response Complete**: Completion when Claude finishes (e.g., "Job's done!", "Complete!")
   - **Needs Attention**: Alert sound (e.g., "What?", "Hmm?")
-  - **Task Complete**: Completion sound (e.g., "Complete!", "Done!")
+  - **Session Exit**: Death sound when exiting Claude Code
 - **Configurable**: Disable specific characters, adjust volume, set minimum task duration for completion sounds
 - **Automatic Cleanup**: Stale locks and dead processes are cleaned up automatically
 
@@ -93,7 +94,7 @@ locking:
 ### Horde
 - Peon
 - Grunt
-- Ogre (note: misspelled as "Orgre" in labels)
+- Ogre
 - Troll Axe Thrower
 - Death Knight
 - Goblin Demolition Crew
@@ -133,11 +134,11 @@ locking:
 
 | Claude Event | Speech Type | Example Sounds |
 |-------------|-------------|----------------|
-| SessionStart | Greeting | "Yes, m'lord?", "Ready to serve!", "Zug zug" |
-| PreToolUse | Acknowledge / Ready | "Yes?", "Ready!", "Okay" |
+| SessionStart | Greeting / Annoyed / Ready / Silly | "Yes, m'lord?", "Ready to serve!", "Zug zug" |
+| UserPromptSubmit | Acknowledge | "Yes?", "Okay", "Huh?" |
+| Stop | Complete / Annoyed / Ready | "Job's done!", "Complete!", "Done!" |
 | Notification | Alert / Annoyed | "What?", "Hmm?", "Stop poking me!" |
-| PostToolUse | Complete | "Complete!", "Done!", "Job's done!" |
-| SessionEnd | (cleanup only) | - |
+| SessionEnd | Death / Annoyed / Acknowledge | Death screams, groans |
 
 ## File Structure
 
@@ -151,14 +152,14 @@ wc2-claude-sounds/
 │   ├── labels.json         # Sound file metadata
 │   └── *.wav               # 218 labeled WAV files
 ├── scripts/
-│   ├── select_character.sh # Character selection logic
-│   └── play_sound.sh       # Sound playback logic
+│   ├── select_character.sh      # Character selection logic
+│   └── play_sound.sh            # Sound playback logic
 └── hooks/
-    ├── session-start.sh    # SessionStart hook
-    ├── pre-tool-use.sh     # PreToolUse hook
-    ├── post-tool-use.sh    # PostToolUse hook
-    ├── notification.sh     # Notification hook
-    └── session-end.sh      # SessionEnd hook
+    ├── session-start.sh         # SessionStart hook
+    ├── user-prompt-submit.sh    # UserPromptSubmit hook
+    ├── stop.sh                  # Stop hook
+    ├── notification.sh          # Notification hook
+    └── session-end.sh           # SessionEnd hook
 ```
 
 ## Uninstallation
@@ -196,6 +197,12 @@ This removes the hooks from `~/.claude/settings.json` and optionally cleans up t
 
 - Adjust `volume` in `config.yaml` (0.0 to 1.0)
 - Note: macOS `afplay` volume control changes system volume temporarily
+
+### Always getting the same character (Peasant)
+
+- This was caused by shell compatibility issues with `${BASH_SOURCE[0]}` in zsh
+- Fixed in latest version of `init.sh` (supports both bash and zsh)
+- If you updated `init.sh`, restart your shell: `exec zsh` or `exec bash`
 
 ## Credits
 

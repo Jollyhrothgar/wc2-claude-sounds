@@ -1023,7 +1023,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Ogre Bloodrage",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Effect",
       "labeled_at": "2025-11-05T00:17:56.809Z"
     },
@@ -1850,7 +1850,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Yes master / I don't want to",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:46:13.913Z"
     },
@@ -1859,7 +1859,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Alright / now I'm hungry",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:46:37.881Z"
     },
@@ -1868,7 +1868,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "This way / no that way",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:46:49.765Z"
     },
@@ -1877,7 +1877,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "burp / he did it",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Silly",
       "labeled_at": "2025-11-05T00:47:02.634Z"
     },
@@ -1886,7 +1886,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "fart",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Silly",
       "labeled_at": "2025-11-05T00:47:15.319Z"
     },
@@ -1895,7 +1895,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Ready Master / Not Ready",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Ready",
       "labeled_at": "2025-11-05T00:47:37.845Z"
     },
@@ -1904,7 +1904,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Huh / What",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:47:51.565Z"
     },
@@ -1913,7 +1913,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "What / Huh",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Silly",
       "labeled_at": "2025-11-05T00:48:05.109Z"
     },
@@ -1922,7 +1922,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Yes",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:48:15.551Z"
     },
@@ -1931,7 +1931,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Master",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:48:26.784Z"
     },
@@ -1940,7 +1940,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "OK",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:48:40.718Z"
     },
@@ -1949,7 +1949,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Yes Master",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:48:52.337Z"
     },
@@ -1958,7 +1958,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Alright",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:49:03.346Z"
     },
@@ -1967,7 +1967,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Burp / we did it",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Silly",
       "labeled_at": "2025-11-05T00:49:19.398Z"
     },
@@ -1976,7 +1976,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "We're not brainless anymore",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:49:36.822Z"
     },
@@ -1985,7 +1985,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "I've got the brain / huh uh",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Silly",
       "labeled_at": "2025-11-05T00:49:52.533Z"
     },
@@ -1994,7 +1994,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "We're ready master",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Ready",
       "labeled_at": "2025-11-05T00:50:05.171Z"
     },
@@ -2003,7 +2003,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Yes Master",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:50:13.833Z"
     },
@@ -2012,7 +2012,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "What?",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:50:21.580Z"
     },
@@ -2021,7 +2021,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Yes",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:50:29.650Z"
     },
@@ -2030,7 +2030,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "What is it",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Greeting",
       "labeled_at": "2025-11-05T00:50:41.147Z"
     },
@@ -2039,7 +2039,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Yes master",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:50:51.282Z"
     },
@@ -2048,7 +2048,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Of course",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:51:02.524Z"
     },
@@ -2057,7 +2057,7 @@
       "category": "unit",
       "faction": "horde",
       "Name": "Right away",
-      "Unit Type": "Orgre",
+      "Unit Type": "Ogre",
       "Speech Type": "Acknowledge",
       "labeled_at": "2025-11-05T00:51:31.870Z"
     },
@@ -4106,7 +4106,7 @@
         "faction": "alliance"
       },
       {
-        "value": "Orgre",
+        "value": "Ogre",
         "faction": "horde"
       },
       {

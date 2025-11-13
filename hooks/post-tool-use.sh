@@ -25,7 +25,7 @@ if [[ -L "$SCRIPT_PATH" ]]; then
     SCRIPT_PATH="$(readlink "$SCRIPT_PATH")"
 fi
 SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
-REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+WC2_SOUNDS_REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 
 # Get or create character for this session
 # Use PPID (parent process, Claude Code) for session consistency
@@ -36,7 +36,7 @@ if [[ -z "${WC2_CHARACTER:-}" ]]; then
         WC2_CHARACTER=$(cat "$SESSION_FILE")
     else
         # Select new character and save to session file
-        WC2_CHARACTER=$("$REPO_ROOT/scripts/select_character.sh" 2>/dev/null || echo "Peasant")
+        WC2_CHARACTER=$("$WC2_SOUNDS_REPO_ROOT/scripts/select_character.sh" 2>/dev/null || echo "Peasant")
         echo "$WC2_CHARACTER" > "$SESSION_FILE"
     fi
     export WC2_CHARACTER
@@ -49,7 +49,7 @@ fi
 # Try: Complete -> Ready -> Acknowledge -> Greeting
 # Play in background to avoid blocking hook (Claude Code considers slow hooks as errors)
 echo "About to play sound for character: $WC2_CHARACTER" >> /tmp/wc2-hook-calls.log
-"$REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" "Acknowledge" "Greeting" >> /tmp/wc2-hook-calls.log 2>&1 &
+"$WC2_SOUNDS_REPO_ROOT/scripts/play_sound.sh" "Complete" "Ready" "Acknowledge" "Greeting" >> /tmp/wc2-hook-calls.log 2>&1 &
 echo "Sound script started in background (PID $!)" >> /tmp/wc2-hook-calls.log
 
 # Update timestamp immediately (debouncing happens at hook start, not sound end)

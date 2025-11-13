@@ -9,7 +9,7 @@ if [[ -L "$SCRIPT_PATH" ]]; then
     SCRIPT_PATH="$(readlink "$SCRIPT_PATH")"
 fi
 SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
-REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+WC2_SOUNDS_REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 
 # Get or create character for this session
 # Use PPID (parent process, Claude Code) for session consistency
@@ -20,13 +20,13 @@ if [[ -z "${WC2_CHARACTER:-}" ]]; then
         WC2_CHARACTER=$(cat "$SESSION_FILE")
     else
         # Select new character and save to session file
-        WC2_CHARACTER=$("$REPO_ROOT/scripts/select_character.sh" 2>/dev/null || echo "Peasant")
+        WC2_CHARACTER=$("$WC2_SOUNDS_REPO_ROOT/scripts/select_character.sh" 2>/dev/null || echo "Peasant")
         echo "$WC2_CHARACTER" > "$SESSION_FILE"
     fi
     export WC2_CHARACTER
 fi
 
-# Play alert sound (with Annoyed as fallback)
-"$REPO_ROOT/scripts/play_sound.sh" "Alert" "Annoyed" &
+# Play alert sound with fallbacks (Alert -> Annoyed -> Annoyed)
+"$WC2_SOUNDS_REPO_ROOT/scripts/play_sound.sh" "Alert" "Annoyed" "Annoyed" &
 
 exit 0

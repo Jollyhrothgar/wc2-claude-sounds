@@ -44,19 +44,19 @@ set -euo pipefail
 # fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_ROOT="$(dirname "$SCRIPT_DIR")"
-CONFIG_FILE="$REPO_ROOT/config.yaml"
-LABELS_FILE="$REPO_ROOT/sounds/labels.json"
-SOUNDS_DIR="$REPO_ROOT/sounds"
+WC2_SOUNDS_REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+CONFIG_FILE="$WC2_SOUNDS_REPO_ROOT/config.yaml"
+LABELS_FILE="$WC2_SOUNDS_REPO_ROOT/sounds/labels.json"
+SOUNDS_DIR="$WC2_SOUNDS_REPO_ROOT/sounds"
 
 # Check if playback is enabled
-PLAYBACK_ENABLED=$(grep -A3 "^playback:" "$CONFIG_FILE" | grep "enabled:" | sed 's/.*: //' | xargs)
+PLAYBACK_ENABLED=$(grep -A3 "^playback:" "$CONFIG_FILE" | grep "enabled:" | sed 's/.*enabled: *//' | xargs)
 if [[ "$PLAYBACK_ENABLED" != "true" ]]; then
     exit 0
 fi
 
 # Get volume setting (strip inline comments)
-VOLUME=$(grep -A3 "^playback:" "$CONFIG_FILE" | grep "volume:" | sed 's/.*: //' | sed 's/#.*//' | xargs)
+VOLUME=$(grep "volume:" "$CONFIG_FILE" | sed 's/.*volume: *//' | sed 's/#.*//' | xargs)
 
 # Get current character from environment variable
 if [[ -z "${WC2_CHARACTER:-}" ]]; then

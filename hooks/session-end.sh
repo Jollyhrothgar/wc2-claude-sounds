@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# Claude Code SessionEnd hook - Clean up character lock file
+# Claude Code SessionEnd hook - Play death sound and clean up session
 
 set -euo pipefail
+
+# DEBUG
+echo "SessionEnd called at $(date) by PID $$ from PPID $PPID" >> /tmp/wc2-hook-calls.log 2>&1
 
 # Resolve symlink to get real script location
 SCRIPT_PATH="${BASH_SOURCE[0]}"
@@ -9,8 +12,8 @@ if [[ -L "$SCRIPT_PATH" ]]; then
     SCRIPT_PATH="$(readlink "$SCRIPT_PATH")"
 fi
 SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
-REPO_ROOT="$(dirname "$SCRIPT_DIR")"
-CONFIG_FILE="$REPO_ROOT/config.yaml"
+WC2_SOUNDS_REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+CONFIG_FILE="$WC2_SOUNDS_REPO_ROOT/config.yaml"
 
 # Get character from session file if not in env
 # Use PPID (parent process, Claude Code) for session consistency
@@ -23,18 +26,20 @@ if [[ -z "${WC2_CHARACTER:-}" ]]; then
         exit 0
     fi
 fi
+export WC2_CHARACTER
+
+# Play death sound with fallbacks (Death -> Annoyed -> Acknowledge)
+# Play synchronously so it doesn't get cut off on exit
+echo "About to play Death for character: $WC2_CHARACTER" >> /tmp/wc2-hook-calls.log 2>&1
+"$WC2_SOUNDS_REPO_ROOT/scripts/play_sound.sh" "Death" "Annoyed" "Acknowledge" >> /tmp/wc2-hook-calls.log 2>&1
+echo "Death sound played for $WC2_CHARACTER" >> /tmp/wc2-hook-calls.log 2>&1
 
 # Get lock directory from config
-LOCK_DIR=$(grep -A1 "lock_dir:" "$CONFIG_FILE" | tail -1 | sed 's/.*: //' | tr -d '"' | xargs)
+LOCK_DIR=$(grep "lock_dir:" "$CONFIG_FILE" | sed 's/.*lock_dir: *//' | tr -d '"' | xargs)
 
-# Remove lock file for this character
-LOCK_FILE="$LOCK_DIR/$(echo "$WC2_CHARACTER" | sed 's/ /_/g').lock"
-if [[ -f "$LOCK_FILE" ]]; then
-    # Verify it's our lock (matches our PID)
-    if [[ "$(cat "$LOCK_FILE")" == "$$" ]]; then
-        rm -f "$LOCK_FILE"
-    fi
-fi
+# Note: Lock files are intentionally NOT removed here
+# They contain the shell PID and should persist for the entire shell session
+# They're cleaned up by stale lock cleanup in select_character.sh when the shell PID dies
 
 # Remove session file
 rm -f "$SESSION_FILE"

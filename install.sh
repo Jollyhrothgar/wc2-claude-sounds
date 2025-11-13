@@ -43,21 +43,21 @@ NEW_SETTINGS=$(echo "$CURRENT_SETTINGS" | jq --arg script_dir "$SCRIPT_DIR" '
     }]
   }] |
 
-  # PreToolUse
-  .hooks.PreToolUse = [{
+  # UserPromptSubmit
+  .hooks.UserPromptSubmit = [{
     "matcher": "*",
     "hooks": [{
       "type": "command",
-      "command": ($script_dir + "/hooks/pre-tool-use.sh")
+      "command": ($script_dir + "/hooks/user-prompt-submit.sh")
     }]
   }] |
 
-  # PostToolUse
-  .hooks.PostToolUse = [{
+  # Stop
+  .hooks.Stop = [{
     "matcher": "*",
     "hooks": [{
       "type": "command",
-      "command": ($script_dir + "/hooks/post-tool-use.sh")
+      "command": ($script_dir + "/hooks/stop.sh")
     }]
   }] |
 

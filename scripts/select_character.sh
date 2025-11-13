@@ -5,14 +5,14 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-REPO_ROOT="$(dirname "$SCRIPT_DIR")"
-CONFIG_FILE="$REPO_ROOT/config.yaml"
-LABELS_FILE="$REPO_ROOT/sounds/labels.json"
+WC2_SOUNDS_REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+CONFIG_FILE="$WC2_SOUNDS_REPO_ROOT/config.yaml"
+LABELS_FILE="$WC2_SOUNDS_REPO_ROOT/sounds/labels.json"
 
 # Read config values (simple YAML parsing for our needs)
-LOCK_DIR=$(grep -A1 "lock_dir:" "$CONFIG_FILE" | tail -1 | sed 's/.*: //' | tr -d '"' | xargs)
-STALE_HOURS=$(grep -A1 "stale_lock_hours:" "$CONFIG_FILE" | tail -1 | sed 's/.*: //' | xargs)
-LOCKING_ENABLED=$(grep -A1 "locking:" "$CONFIG_FILE" | grep "enabled:" | sed 's/.*: //' | xargs)
+LOCK_DIR=$(grep "lock_dir:" "$CONFIG_FILE" | sed 's/.*lock_dir: *//' | tr -d '"' | xargs)
+STALE_HOURS=$(grep "stale_lock_hours:" "$CONFIG_FILE" | sed 's/.*stale_lock_hours: *//' | sed 's/#.*//' | xargs)
+LOCKING_ENABLED=$(grep -A2 "^locking:" "$CONFIG_FILE" | grep "enabled:" | sed 's/.*enabled: *//' | xargs)
 
 # Create lock directory if needed
 if [[ "$LOCKING_ENABLED" == "true" ]]; then

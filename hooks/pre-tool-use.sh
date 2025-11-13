@@ -9,7 +9,7 @@ if [[ -L "$SCRIPT_PATH" ]]; then
     SCRIPT_PATH="$(readlink "$SCRIPT_PATH")"
 fi
 SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
-REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+WC2_SOUNDS_REPO_ROOT="$(dirname "$SCRIPT_DIR")"
 
 # Check if character is set
 if [[ -z "${WC2_CHARACTER:-}" ]]; then
@@ -17,6 +17,6 @@ if [[ -z "${WC2_CHARACTER:-}" ]]; then
 fi
 
 # Play acknowledge sound (with Ready as fallback)
-"$REPO_ROOT/scripts/play_sound.sh" "Acknowledge" "Ready" &
+"$WC2_SOUNDS_REPO_ROOT/scripts/play_sound.sh" "Acknowledge" "Ready" &
 
 exit 0

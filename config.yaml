@@ -14,7 +14,7 @@ disabled_characters:
   # - Mage  # Uncomment to disable Mage
   # - Death Knight  # Uncomment to disable Death Knight
   # - Paladin  # Uncomment to disable Paladin
-  # - Orgre  # Uncomment to disable Ogre
+  # - Ogre  # Uncomment to disable Ogre
   # - Dwarvish Demo Squad  # Uncomment to disable Dwarven Demo Squad
   # - Goblin Demolition Crew  # Uncomment to disable Goblin Demo Crew
   # - Gryphon Rider  # Uncomment to disable Gryphon Rider
@@ -27,26 +27,28 @@ disabled_characters:
 # Maps Claude Code hook events to Warcraft II speech types
 events:
   session_start:
-    speech_type: Greeting
+    speech_types: [Greeting, Annoyed, Ready, Silly]
     description: "Plays when a new Claude Code session starts"
 
-  pre_tool_use:
-    speech_type: Acknowledge
-    fallback: Ready
-    description: "Plays when Claude starts working on a task"
+  user_prompt_submit:
+    speech_types: [Acknowledge]
+    description: "Plays when user submits a prompt (Claude acknowledging input)"
+
+  stop:
+    speech_types: [Complete, Annoyed, Ready]
+    description: "Plays when Claude finishes responding"
 
   notification:
-    speech_type: Alert
-    fallback: Annoyed
+    speech_types: [Alert, Annoyed, Annoyed]
     description: "Plays when Claude needs user attention"
 
-  post_tool_use:
-    speech_type: Complete
-    description: "Plays when a long-running task completes"
+  session_end:
+    speech_types: [Death, Annoyed, Acknowledge]
+    description: "Plays when Claude Code session exits"
 
 # Playback settings
 playback:
-  volume: 0.7  # 0.0 to 1.0
+  volume: 0.2  # 0.0 to 1.0
   enabled: true
   # Only play sounds for long-running tasks (in seconds)
   min_duration_for_complete: 5.0

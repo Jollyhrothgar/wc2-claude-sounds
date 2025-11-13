@@ -34,16 +34,16 @@ NEW_SETTINGS=$(cat "$SETTINGS_FILE" | jq --arg script_dir "$SCRIPT_DIR" '
     | if .hooks.SessionStart == [] then del(.hooks.SessionStart) else . end
   else . end |
 
-  # Remove PreToolUse if it matches our hook
-  if .hooks.PreToolUse then
-    .hooks.PreToolUse = [.hooks.PreToolUse[] | select(.hooks[0].command != ($script_dir + "/hooks/pre-tool-use.sh"))]
-    | if .hooks.PreToolUse == [] then del(.hooks.PreToolUse) else . end
+  # Remove UserPromptSubmit if it matches our hook
+  if .hooks.UserPromptSubmit then
+    .hooks.UserPromptSubmit = [.hooks.UserPromptSubmit[] | select(.hooks[0].command != ($script_dir + "/hooks/user-prompt-submit.sh"))]
+    | if .hooks.UserPromptSubmit == [] then del(.hooks.UserPromptSubmit) else . end
   else . end |
 
-  # Remove PostToolUse if it matches our hook
-  if .hooks.PostToolUse then
-    .hooks.PostToolUse = [.hooks.PostToolUse[] | select(.hooks[0].command != ($script_dir + "/hooks/post-tool-use.sh"))]
-    | if .hooks.PostToolUse == [] then del(.hooks.PostToolUse) else . end
+  # Remove Stop if it matches our hook
+  if .hooks.Stop then
+    .hooks.Stop = [.hooks.Stop[] | select(.hooks[0].command != ($script_dir + "/hooks/stop.sh"))]
+    | if .hooks.Stop == [] then del(.hooks.Stop) else . end
   else . end |
 
   # Remove our notification hook (but keep others)
@@ -78,7 +78,7 @@ fi
 # Clean up old symlinks if they exist
 CLAUDE_HOOKS_DIR="${HOME}/.config/claude/hooks"
 if [[ -d "$CLAUDE_HOOKS_DIR" ]]; then
-    for hook in SessionStart PreToolUse PostToolUse Notification SessionEnd; do
+    for hook in SessionStart UserPromptSubmit Stop Notification SessionEnd; do
         if [[ -L "$CLAUDE_HOOKS_DIR/$hook" ]]; then
             link_target=$(readlink "$CLAUDE_HOOKS_DIR/$hook")
             if [[ "$link_target" == "$SCRIPT_DIR"/hooks/* ]]; then
